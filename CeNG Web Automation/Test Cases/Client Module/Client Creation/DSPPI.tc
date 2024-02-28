@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Demographic Survey/Poverty Probability Index</description>
+   <name>DSPPI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f2b8dcf-8ff7-43bb-b345-de3ead549534</testCaseGuid>
+</TestCaseEntity>
