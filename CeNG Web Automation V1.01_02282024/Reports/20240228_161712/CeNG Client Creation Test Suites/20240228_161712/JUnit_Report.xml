@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CeNG Client Creation Test Suites" time="552.121" tests="11" failures="0" errors="0">
+   <testsuite name="CeNG Client Creation Test Suites" tests="11" failures="0" errors="0" time="552.121" skipped="0" timestamp="2024-02-28 16:17:28" hostname="ja.bundalian - cmit-bundalian2.net.cmit.local" id="Test Suites/CeNG Client Creation Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ja.bundalian\\Katalon Studio\\CeNG Web Automation\\Reports\\20240228_161712\\CeNG Client Creation Test Suites\\20240228_161712"/>
+         <property name="logFiles" value="C:\\Users\\ja.bundalian\\Katalon Studio\\CeNG Web Automation\\Reports\\20240228_161712\\CeNG Client Creation Test Suites\\20240228_161712\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ja.bundalian - cmit-bundalian2.net.cmit.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.9.2.42"/>
+         <property name="sessionId" value="0174f4f9ba3b2be57c5d325767a284f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login and Logout/Login" time="24.294" classname="Test Cases/Login and Logout/Login" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:17:28 - [TEST_CASE][PASSED] - Test Cases/Login and Logout/Login: Test Cases/Login and Logout/Login
+
+2024-02-28 16:17:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-28 16:17:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-28 16:17:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-28 16:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-28 16:17:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-02-28 16:17:32 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-28 16:17:32 - [TEST_STEP][PASSED] - navigateToUrl("http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login"): Navigate to 'http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login' successfully
+
+2024-02-28 16:17:33 - [MESSAGE][PASSED] - Navigate to 'http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login' successfully
+
+2024-02-28 16:17:33 - [TEST_STEP][PASSED] - UsernameTeller = UsernameTeller: null
+
+2024-02-28 16:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername"), UsernameTeller): Text 'rvdelatorre' is set on object 'Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername'
+
+2024-02-28 16:17:34 - [MESSAGE][PASSED] - Text 'rvdelatorre' is set on object 'Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername'
+
+2024-02-28 16:17:34 - [TEST_STEP][PASSED] - PasswordTeller = PasswordTeller: null
+
+2024-02-28 16:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword"), PasswordTeller): Text '#Password1234567' is set on object 'Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword'
+
+2024-02-28 16:17:35 - [MESSAGE][PASSED] - Text '#Password1234567' is set on object 'Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword'
+
+2024-02-28 16:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword")): Object: 'Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword' is clicked on
+
+2024-02-28 16:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword' is clicked on
+
+2024-02-28 16:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Card eSystemNextGen/button_Login")): Object: 'Object Repository/Page_Card eSystemNextGen/button_Login' is clicked on
+
+2024-02-28 16:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Card eSystemNextGen/button_Login' is clicked on
+
+2024-02-28 16:17:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Core/h4_Dashboard")): Object 'Object Repository/Page_Core/h4_Dashboard' is visible
+
+2024-02-28 16:17:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Core/h4_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/Client Validation" time="76.15" classname="Test Cases/Client Module/Client Creation/Client Validation" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:17:52 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/Client Validation: Test Cases/Client Module/Client Creation/Client Validation
+
+2024-02-28 16:17:53 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Captured Object/Personal Information/Page_Core/span_Client")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/span_Client' is hovered
+
+2024-02-28 16:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/span_Client' is hovered
+
+2024-02-28 16:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Captured Object/Personal Information/Page_Core/span_Client")): Object 'Object Repository/Captured Object/Personal Information/Page_Core/span_Client' is visible
+
+2024-02-28 16:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/Captured Object/Personal Information/Page_Core/span_Client' is visible
+
+2024-02-28 16:17:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-28 16:18:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-28 16:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Page_Core/span_Client")): Object: 'Object Repository/Captured Object/Page_Core/span_Client' is clicked on
+
+2024-02-28 16:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Page_Core/span_Client' is clicked on
+
+2024-02-28 16:18:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-02-28 16:18:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-02-28 16:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Loan Creation/Client Creation/Page_Core/a_ClientCreation")): Object: 'Object Repository/Loan Creation/Client Creation/Page_Core/a_ClientCreation' is clicked on
+
+2024-02-28 16:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Page_Core/a_ClientCreation' is clicked on
+
+2024-02-28 16:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Loan Creation/Client Creation/Page_Core/a_ClientCreation")): Object: 'Object Repository/Loan Creation/Client Creation/Page_Core/a_ClientCreation' is clicked on
+
+2024-02-28 16:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Page_Core/a_ClientCreation' is clicked on
+
+2024-02-28 16:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Loan Creation/Client Creation/Page_Core/a_ClientCreation")): Object: 'Object Repository/Loan Creation/Client Creation/Page_Core/a_ClientCreation' is clicked on
+
+2024-02-28 16:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Page_Core/a_ClientCreation' is clicked on
+
+2024-02-28 16:18:09 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2024-02-28 16:18:09 - [MESSAGE][PASSED] - Alert accepted
+
+2024-02-28 16:18:09 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Page_Core/input_FirstName_txtFname"), "First Name 1"): Text 'First Name 1' is set on object 'Object Repository/Loan Creation/Page_Core/input_FirstName_txtFname'
+
+2024-02-28 16:18:13 - [MESSAGE][PASSED] - Text 'First Name 1' is set on object 'Object Repository/Loan Creation/Page_Core/input_FirstName_txtFname'
+
+2024-02-28 16:18:13 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Page_Core/input_LastName_txtLname"), "Last Name 2"): Text 'Last Name 2' is set on object 'Object Repository/Loan Creation/Page_Core/input_LastName_txtLname'
+
+2024-02-28 16:18:14 - [MESSAGE][PASSED] - Text 'Last Name 2' is set on object 'Object Repository/Loan Creation/Page_Core/input_LastName_txtLname'
+
+2024-02-28 16:18:14 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Page_Core/input_MiddleName_txtMname"), "Middle Name 1"): Text 'Middle Name 1' is set on object 'Object Repository/Loan Creation/Page_Core/input_MiddleName_txtMname'
+
+2024-02-28 16:18:15 - [MESSAGE][PASSED] - Text 'Middle Name 1' is set on object 'Object Repository/Loan Creation/Page_Core/input_MiddleName_txtMname'
+
+2024-02-28 16:18:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Loan Creation/Client Creation/Page_Core/input_Birthday_txtdoBirth"), ""): Actual text and expected text of test object 'Object Repository/Loan Creation/Client Creation/Page_Core/input_Birthday_txtdoBirth' are matched.
+
+2024-02-28 16:18:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Loan Creation/Client Creation/Page_Core/input_Birthday_txtdoBirth' are matched.
+
+2024-02-28 16:18:16 - [TEST_STEP][PASSED] - currentDate = new java.util.Date(): null
+
+2024-02-28 16:18:16 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM-dd-yyyy): null
+
+2024-02-28 16:18:16 - [TEST_STEP][PASSED] - formattedDate = dateFormat.format(currentDate): null
+
+2024-02-28 16:18:16 - [TEST_STEP][PASSED] - println("Current System Date: " + formattedDate): null
+
+2024-02-28 16:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("Captured Object/Personal Information/Page_Core/input_Birthday_txtdoBirth"), formattedDate): Text '02-28-2024' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_Birthday_txtdoBirth'
+
+2024-02-28 16:18:17 - [MESSAGE][PASSED] - Text '02-28-2024' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_Birthday_txtdoBirth'
+
+2024-02-28 16:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Personal Information/Page_Core/button_SEARCH")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_SEARCH' is clicked on
+
+2024-02-28 16:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_SEARCH' is clicked on
+
+2024-02-28 16:18:20 - [TEST_STEP][PASSED] - clearText(findTestObject("Loan Creation/Page_Core/input_FirstName_txtFname")): Text of object 'Object Repository/Loan Creation/Page_Core/input_FirstName_txtFname' is cleared
+
+2024-02-28 16:18:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Creation/Page_Core/input_FirstName_txtFname' is cleared
+
+2024-02-28 16:18:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-28 16:18:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-28 16:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Personal Information/Page_Core/button_OK")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_OK' is clicked on
+
+2024-02-28 16:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_OK' is clicked on
+
+2024-02-28 16:18:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Loan Creation/Page_Core/input_MiddleName_txtMname")): Text of object 'Object Repository/Loan Creation/Page_Core/input_MiddleName_txtMname' is cleared
+
+2024-02-28 16:18:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Creation/Page_Core/input_MiddleName_txtMname' is cleared
+
+2024-02-28 16:18:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Loan Creation/Page_Core/input_LastName_txtLname")): Text of object 'Object Repository/Loan Creation/Page_Core/input_LastName_txtLname' is cleared
+
+2024-02-28 16:18:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Creation/Page_Core/input_LastName_txtLname' is cleared
+
+2024-02-28 16:18:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-28 16:18:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-28 16:18:33 - [TEST_STEP][PASSED] - firstName = ClientFirstName: null
+
+2024-02-28 16:18:33 - [TEST_STEP][PASSED] - middleName = ClientMiddleName: null
+
+2024-02-28 16:18:33 - [TEST_STEP][PASSED] - lastName = ClientLastName: null
+
+2024-02-28 16:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Page_Core/input_FirstName_txtFname"), firstName): Text 'Roger' is set on object 'Object Repository/Loan Creation/Page_Core/input_FirstName_txtFname'
+
+2024-02-28 16:18:34 - [MESSAGE][PASSED] - Text 'Roger' is set on object 'Object Repository/Loan Creation/Page_Core/input_FirstName_txtFname'
+
+2024-02-28 16:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Page_Core/input_MiddleName_txtMname"), middleName): Text 'Is' is set on object 'Object Repository/Loan Creation/Page_Core/input_MiddleName_txtMname'
+
+2024-02-28 16:18:35 - [MESSAGE][PASSED] - Text 'Is' is set on object 'Object Repository/Loan Creation/Page_Core/input_MiddleName_txtMname'
+
+2024-02-28 16:18:35 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Page_Core/input_LastName_txtLname"), lastName): Text 'Rakker' is set on object 'Object Repository/Loan Creation/Page_Core/input_LastName_txtLname'
+
+2024-02-28 16:18:37 - [MESSAGE][PASSED] - Text 'Rakker' is set on object 'Object Repository/Loan Creation/Page_Core/input_LastName_txtLname'
+
+2024-02-28 16:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Personal Information/Page_Core/button_SEARCH")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_SEARCH' is clicked on
+
+2024-02-28 16:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_SEARCH' is clicked on
+
+2024-02-28 16:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Personal Information/Page_Core/button_CREATE")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_CREATE' is clicked on
+
+2024-02-28 16:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_CREATE' is clicked on
+
+2024-02-28 16:18:42 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-28 16:18:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-28 16:18:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Captured Object/Personal Information/h4_Personal Information"), 0): Object 'Object Repository/Captured Object/Personal Information/h4_Personal Information' is present
+
+2024-02-28 16:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-28 16:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Captured Object/Personal Information/h4_Personal Information' is present
+
+2024-02-28 16:18:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Captured Object/Personal Information/h4_Personal Information"), 0): Scroll to object 'Object Repository/Captured Object/Personal Information/h4_Personal Information' successfully
+
+2024-02-28 16:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-28 16:18:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Captured Object/Personal Information/h4_Personal Information' successfully
+
+2024-02-28 16:18:53 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2024-02-28 16:19:08 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/Personal Information" time="88.845" classname="Test Cases/Client Module/Client Creation/Personal Information" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:19:08 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/Personal Information: Test Cases/Client Module/Client Creation/Personal Information
+
+2024-02-28 16:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_with Disability_withdisability")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_with Disability_withdisability' is clicked on
+
+2024-02-28 16:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_with Disability_withdisability' is clicked on
+
+2024-02-28 16:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_YES_withdisability")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_YES_withdisability' is clicked on
+
+2024-02-28 16:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_YES_withdisability' is clicked on
+
+2024-02-28 16:19:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--NewTransferred"), "1820", true): All options with value '1820' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--NewTransferred'  using regular expression
+
+2024-02-28 16:19:12 - [MESSAGE][PASSED] - All options with value '1820' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--NewTransferred'  using regular expression
+
+2024-02-28 16:19:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --4Ps BeneficiaryArtistChi_05c006"), "1787", true): All options with value '1787' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --4Ps BeneficiaryArtistChi_05c006'  using regular expression
+
+2024-02-28 16:19:14 - [MESSAGE][PASSED] - All options with value '1787' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --4Ps BeneficiaryArtistChi_05c006'  using regular expression
+
+2024-02-28 16:19:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --Atty.Dr.Eng.Hon.MrMrsMs"), "155", true): All options with value '155' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --Atty.Dr.Eng.Hon.MrMrsMs'  using regular expression
+
+2024-02-28 16:19:16 - [MESSAGE][PASSED] - All options with value '155' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --Atty.Dr.Eng.Hon.MrMrsMs'  using regular expression
+
+2024-02-28 16:19:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0"), "76", true): All options with value '76' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0'  using regular expression
+
+2024-02-28 16:19:18 - [MESSAGE][PASSED] - All options with value '76' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0'  using regular expression
+
+2024-02-28 16:19:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0"), "0", true): All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0'  using regular expression
+
+2024-02-28 16:19:20 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0'  using regular expression
+
+2024-02-28 16:19:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--Select--AnnulledLive-inMarriedSepa_54a068"), "162", true): All options with value '162' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--Select--AnnulledLive-inMarriedSepa_54a068'  using regular expression
+
+2024-02-28 16:19:22 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--Select--AnnulledLive-inMarriedSepa_54a068'  using regular expression
+
+2024-02-28 16:19:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_FirstName_txtmothersMaidenFName"), "Hayley"): Text 'Hayley' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_FirstName_txtmothersMaidenFName'
+
+2024-02-28 16:19:23 - [MESSAGE][PASSED] - Text 'Hayley' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_FirstName_txtmothersMaidenFName'
+
+2024-02-28 16:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName"), "N"): Text 'N' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName'
+
+2024-02-28 16:19:24 - [MESSAGE][PASSED] - Text 'N' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName'
+
+2024-02-28 16:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName"), ""): Text '' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName'
+
+2024-02-28 16:19:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName'
+
+2024-02-28 16:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/div_Please ensure that the middle name cont_98c59e")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/div_Please ensure that the middle name cont_98c59e' is clicked on
+
+2024-02-28 16:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/div_Please ensure that the middle name cont_98c59e' is clicked on
+
+2024-02-28 16:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName"), "Nicole"): Text 'Nicole' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName'
+
+2024-02-28 16:19:28 - [MESSAGE][PASSED] - Text 'Nicole' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName'
+
+2024-02-28 16:19:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName"), "Williams"): Text 'Williams' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName'
+
+2024-02-28 16:19:29 - [MESSAGE][PASSED] - Text 'Williams' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName'
+
+2024-02-28 16:19:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a"), "0", true): All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:31 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a"), "0", true): All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:33 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a"), "422", true): All options with value '422' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:35 - [MESSAGE][PASSED] - All options with value '422' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a"), "422", true): All options with value '422' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:37 - [MESSAGE][PASSED] - All options with value '422' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a'  using regular expression
+
+2024-02-28 16:19:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c"), "197", true): All options with value '197' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:19:39 - [MESSAGE][PASSED] - All options with value '197' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:19:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c"), "197", true): All options with value '197' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:19:41 - [MESSAGE][PASSED] - All options with value '197' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:19:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64"), "441", true): All options with value '441' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64'  using regular expression
+
+2024-02-28 16:19:43 - [MESSAGE][PASSED] - All options with value '441' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64'  using regular expression
+
+2024-02-28 16:19:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64"), "441", true): All options with value '441' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64'  using regular expression
+
+2024-02-28 16:19:45 - [MESSAGE][PASSED] - All options with value '441' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64'  using regular expression
+
+2024-02-28 16:19:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9"), "699", true): All options with value '699' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9'  using regular expression
+
+2024-02-28 16:19:48 - [MESSAGE][PASSED] - All options with value '699' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9'  using regular expression
+
+2024-02-28 16:19:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9"), "699", true): All options with value '699' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9'  using regular expression
+
+2024-02-28 16:19:50 - [MESSAGE][PASSED] - All options with value '699' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9'  using regular expression
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - currentDate = new java.util.Date(): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - calendar = Calendar.getInstance(): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - calendar.setTime(currentDate): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - calendar.add(YEAR, -20): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - dateTwentyYearsBack = calendar.getTime(): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - formattedDate = dateFormat.format(dateTwentyYearsBack): null
+
+2024-02-28 16:19:50 - [TEST_STEP][PASSED] - setText(findTestObject("Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday"), formattedDate): Text '02/28/2004' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday'
+
+2024-02-28 16:19:51 - [MESSAGE][PASSED] - Text '02/28/2004' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday'
+
+2024-02-28 16:19:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday'
+
+2024-02-28 16:19:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday'
+
+2024-02-28 16:19:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376"), "10488", true): All options with value '10488' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376'  using regular expression
+
+2024-02-28 16:19:58 - [MESSAGE][PASSED] - All options with value '10488' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376'  using regular expression
+
+2024-02-28 16:19:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376"), "10488", true): All options with value '10488' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376'  using regular expression
+
+2024-02-28 16:20:04 - [MESSAGE][PASSED] - All options with value '10488' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376'  using regular expression
+
+2024-02-28 16:20:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f"), "10571", true): All options with value '10571' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:07 - [MESSAGE][PASSED] - All options with value '10571' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f"), "10571", true): All options with value '10571' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:10 - [MESSAGE][PASSED] - All options with value '10571' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_0.00"), "09091231231"): Text '09091231231' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_0.00'
+
+2024-02-28 16:20:11 - [MESSAGE][PASSED] - Text '09091231231' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_0.00'
+
+2024-02-28 16:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber"), "(12) 312-3123"): Text '(12) 312-3123' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber'
+
+2024-02-28 16:20:13 - [MESSAGE][PASSED] - Text '(12) 312-3123' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber'
+
+2024-02-28 16:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber' is clicked on
+
+2024-02-28 16:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber' is clicked on
+
+2024-02-28 16:20:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_EmailAddress_txtEmailAddress"), "anitamaxwynn@sample.com"): Text 'anitamaxwynn@sample.com' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_EmailAddress_txtEmailAddress'
+
+2024-02-28 16:20:14 - [MESSAGE][PASSED] - Text 'anitamaxwynn@sample.com' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_EmailAddress_txtEmailAddress'
+
+2024-02-28 16:20:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID"), "123-123-123-12321"): Text '123-123-123-12321' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID'
+
+2024-02-28 16:20:16 - [MESSAGE][PASSED] - Text '123-123-123-12321' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID'
+
+2024-02-28 16:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID' is clicked on
+
+2024-02-28 16:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID' is clicked on
+
+2024-02-28 16:20:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo"), "12-3123123-1"): Text '12-3123123-1' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo'
+
+2024-02-28 16:20:18 - [MESSAGE][PASSED] - Text '12-3123123-1' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo'
+
+2024-02-28 16:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo' is clicked on
+
+2024-02-28 16:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo' is clicked on
+
+2024-02-28 16:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_PhilhealthNo_txtPhilhealth"), "12-3123123-123"): Text '12-3123123-123' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_PhilhealthNo_txtPhilhealth'
+
+2024-02-28 16:20:19 - [MESSAGE][PASSED] - Text '12-3123123-123' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_PhilhealthNo_txtPhilhealth'
+
+2024-02-28 16:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_Pag-IBIGNo_txtPagIbig"), "1231-2312-3123"): Text '1231-2312-3123' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_Pag-IBIGNo_txtPagIbig'
+
+2024-02-28 16:20:21 - [MESSAGE][PASSED] - Text '1231-2312-3123' is set on object 'Object Repository/Captured Object/Personal Information/Page_Core/input_Pag-IBIGNo_txtPagIbig'
+
+2024-02-28 16:20:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5"), "0", true): All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:23 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5"), "0", true): All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:25 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5"), "97", true): All options with value '97' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:27 - [MESSAGE][PASSED] - All options with value '97' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5"), "97", true): All options with value '97' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:29 - [MESSAGE][PASSED] - All options with value '97' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5'  using regular expression
+
+2024-02-28 16:20:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106"), "708", true): All options with value '708' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106'  using regular expression
+
+2024-02-28 16:20:32 - [MESSAGE][PASSED] - All options with value '708' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106'  using regular expression
+
+2024-02-28 16:20:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106"), "708", true): All options with value '708' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106'  using regular expression
+
+2024-02-28 16:20:34 - [MESSAGE][PASSED] - All options with value '708' are selected in object 'Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106'  using regular expression
+
+2024-02-28 16:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_YES_CARDScholar")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_YES_CARDScholar' is clicked on
+
+2024-02-28 16:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_YES_CARDScholar' is clicked on
+
+2024-02-28 16:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/input_YES_FormerEmployee")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_YES_FormerEmployee' is clicked on
+
+2024-02-28 16:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/input_YES_FormerEmployee' is clicked on
+
+2024-02-28 16:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Captured Object/Personal Information/Page_Core/button_NEXT")): Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Personal Information/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/Address" time="30.258" classname="Test Cases/Client Module/Client Creation/Address" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:20:37 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/Address: Test Cases/Client Module/Client Creation/Address
+
+2024-02-28 16:20:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --Abra - CAR (Co_3be376"), "10488", true): All options with value '10488' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --Abra - CAR (Co_3be376'  using regular expression
+
+2024-02-28 16:20:44 - [MESSAGE][PASSED] - All options with value '10488' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --Abra - CAR (Co_3be376'  using regular expression
+
+2024-02-28 16:20:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f"), "10571", true): All options with value '10571' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:48 - [MESSAGE][PASSED] - All options with value '10571' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f"), "10571", true): All options with value '10571' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:51 - [MESSAGE][PASSED] - All options with value '10571' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f'  using regular expression
+
+2024-02-28 16:20:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_PostalCode_txtCusAddZipCode"), ""): Actual text and expected text of test object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_PostalCode_txtCusAddZipCode' are matched.
+
+2024-02-28 16:20:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_PostalCode_txtCusAddZipCode' are matched.
+
+2024-02-28 16:20:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_AtisanBagong Bayan Ii-A (Pob.)Bagong_361eda"), "13059", true): All options with value '13059' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_AtisanBagong Bayan Ii-A (Pob.)Bagong_361eda'  using regular expression
+
+2024-02-28 16:20:57 - [MESSAGE][PASSED] - All options with value '13059' are selected in object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_AtisanBagong Bayan Ii-A (Pob.)Bagong_361eda'  using regular expression
+
+2024-02-28 16:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_HouseNo.BldgStreetSubdivision_txthous_59daa2"), "777. Purok 12, Limawasa Street"): Text '777. Purok 12, Limawasa Street' is set on object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_HouseNo.BldgStreetSubdivision_txthous_59daa2'
+
+2024-02-28 16:20:58 - [MESSAGE][PASSED] - Text '777. Purok 12, Limawasa Street' is set on object 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_HouseNo.BldgStreetSubdivision_txthous_59daa2'
+
+2024-02-28 16:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_Same with the Present AddressPhysical_c9b861")): Object: 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_Same with the Present AddressPhysical_c9b861' is clicked on
+
+2024-02-28 16:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_Same with the Present AddressPhysical_c9b861' is clicked on
+
+2024-02-28 16:20:58 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2024-02-28 16:21:06 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2024-02-28 16:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Address/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Address/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/ID Presented" time="10.685" classname="Test Cases/Client Module/Client Creation/ID Presented" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:21:07 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/ID Presented: Test Cases/Client Module/Client Creation/ID Presented
+
+2024-02-28 16:21:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0"), "738", true): All options with value '738' are selected in object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0'  using regular expression
+
+2024-02-28 16:21:10 - [MESSAGE][PASSED] - All options with value '738' are selected in object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0'  using regular expression
+
+2024-02-28 16:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_IDNumber_txtIdNumber"), "123123123"): Text '123123123' is set on object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_IDNumber_txtIdNumber'
+
+2024-02-28 16:21:12 - [MESSAGE][PASSED] - Text '123123123' is set on object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_IDNumber_txtIdNumber'
+
+2024-02-28 16:21:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue"), "San Pablo City"): Text 'San Pablo City' is set on object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue'
+
+2024-02-28 16:21:13 - [MESSAGE][PASSED] - Text 'San Pablo City' is set on object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue'
+
+2024-02-28 16:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/i_ExpirationDate_icon")): Object: 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/i_ExpirationDate_icon' is clicked on
+
+2024-02-28 16:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/i_ExpirationDate_icon' is clicked on
+
+2024-02-28 16:21:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0_1"), "727", true): All options with value '727' are selected in object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0_1'  using regular expression
+
+2024-02-28 16:21:16 - [MESSAGE][PASSED] - All options with value '727' are selected in object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0_1'  using regular expression
+
+2024-02-28 16:21:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue2"), "San Pablo City 02"): Text 'San Pablo City 02' is set on object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue2'
+
+2024-02-28 16:21:17 - [MESSAGE][PASSED] - Text 'San Pablo City 02' is set on object 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue2'
+
+2024-02-28 16:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/DOSRI or RPT" time="100.833" classname="Test Cases/Client Module/Client Creation/DOSRI or RPT" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:21:18 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/DOSRI or RPT: Test Cases/Client Module/Client Creation/DOSRI or RPT
+
+2024-02-28 16:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_DOSRI_dosri")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_DOSRI_dosri' is clicked on
+
+2024-02-28 16:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_DOSRI_dosri' is clicked on
+
+2024-02-28 16:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri' is clicked on
+
+2024-02-28 16:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri' is clicked on
+
+2024-02-28 16:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_YES_dosri")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_YES_dosri' is clicked on
+
+2024-02-28 16:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_YES_dosri' is clicked on
+
+2024-02-28 16:21:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri' is clicked on
+
+2024-02-28 16:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri' is clicked on
+
+2024-02-28 16:21:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2"), "765", true): All options with value '765' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2'  using regular expression
+
+2024-02-28 16:21:25 - [MESSAGE][PASSED] - All options with value '765' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2'  using regular expression
+
+2024-02-28 16:21:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff"), "Trafalgar Law"): Text 'Trafalgar Law' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff'
+
+2024-02-28 16:21:26 - [MESSAGE][PASSED] - Text 'Trafalgar Law' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff'
+
+2024-02-28 16:21:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08'  using regular expression
+
+2024-02-28 16:21:44 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08'  using regular expression
+
+2024-02-28 16:21:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08"), "3675", true): All options with value '3675' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08'  using regular expression
+
+2024-02-28 16:21:59 - [MESSAGE][PASSED] - All options with value '3675' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08'  using regular expression
+
+2024-02-28 16:21:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb"), "2693", true): All options with value '2693' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb'  using regular expression
+
+2024-02-28 16:22:01 - [MESSAGE][PASSED] - All options with value '2693' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb'  using regular expression
+
+2024-02-28 16:22:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_-- Select --CARD MRI MemberCARD MRI _8bd785"), "1807", true): All options with value '1807' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_-- Select --CARD MRI MemberCARD MRI _8bd785'  using regular expression
+
+2024-02-28 16:22:03 - [MESSAGE][PASSED] - All options with value '1807' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_-- Select --CARD MRI MemberCARD MRI _8bd785'  using regular expression
+
+2024-02-28 16:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Referredby_txtReferredbyOtherPrimary"), "Bepo the Bear"): Text 'Bepo the Bear' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Referredby_txtReferredbyOtherPrimary'
+
+2024-02-28 16:22:05 - [MESSAGE][PASSED] - Text 'Bepo the Bear' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Referredby_txtReferredbyOtherPrimary'
+
+2024-02-28 16:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Referredby_relationshipIcon")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Referredby_relationshipIcon' is clicked on
+
+2024-02-28 16:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Referredby_relationshipIcon' is clicked on
+
+2024-02-28 16:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_None_drone2")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_None_drone2' is clicked on
+
+2024-02-28 16:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_None_drone2' is clicked on
+
+2024-02-28 16:22:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1"), "763", true): All options with value '763' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1'  using regular expression
+
+2024-02-28 16:22:08 - [MESSAGE][PASSED] - All options with value '763' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1'  using regular expression
+
+2024-02-28 16:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff2"), "Eustass Kidd"): Text 'Eustass Kidd' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff2'
+
+2024-02-28 16:22:09 - [MESSAGE][PASSED] - Text 'Eustass Kidd' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff2'
+
+2024-02-28 16:22:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1'  using regular expression
+
+2024-02-28 16:22:25 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1'  using regular expression
+
+2024-02-28 16:22:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1"), "3669", true): All options with value '3669' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1'  using regular expression
+
+2024-02-28 16:22:41 - [MESSAGE][PASSED] - All options with value '3669' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1'  using regular expression
+
+2024-02-28 16:22:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb_1"), "2696", true): All options with value '2696' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb_1'  using regular expression
+
+2024-02-28 16:22:44 - [MESSAGE][PASSED] - All options with value '2696' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb_1'  using regular expression
+
+2024-02-28 16:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID"), "10000123"): Text '10000123' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID'
+
+2024-02-28 16:22:45 - [MESSAGE][PASSED] - Text '10000123' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID'
+
+2024-02-28 16:22:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID'
+
+2024-02-28 16:22:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID'
+
+2024-02-28 16:22:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985"), "3660", true): All options with value '3660' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985'  using regular expression
+
+2024-02-28 16:22:47 - [MESSAGE][PASSED] - All options with value '3660' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985'  using regular expression
+
+2024-02-28 16:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1' is clicked on
+
+2024-02-28 16:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1' is clicked on
+
+2024-02-28 16:22:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2"), "10000150"): Text '10000150' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2'
+
+2024-02-28 16:22:50 - [MESSAGE][PASSED] - Text '10000150' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2'
+
+2024-02-28 16:22:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2'
+
+2024-02-28 16:22:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2'
+
+2024-02-28 16:22:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1"), "3664", true): All options with value '3664' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1'  using regular expression
+
+2024-02-28 16:22:52 - [MESSAGE][PASSED] - All options with value '3664' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1'  using regular expression
+
+2024-02-28 16:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1' is clicked on
+
+2024-02-28 16:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1' is clicked on
+
+2024-02-28 16:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3"), "10000145"): Text '10000145' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3'
+
+2024-02-28 16:22:55 - [MESSAGE][PASSED] - Text '10000145' is set on object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3'
+
+2024-02-28 16:22:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3'
+
+2024-02-28 16:22:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3'
+
+2024-02-28 16:22:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1_2"), "3659", true): All options with value '3659' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1_2'  using regular expression
+
+2024-02-28 16:22:58 - [MESSAGE][PASSED] - All options with value '3659' are selected in object 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1_2'  using regular expression
+
+2024-02-28 16:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/Other Information" time="121.258" classname="Test Cases/Client Module/Client Creation/Other Information" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:22:59 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/Other Information: Test Cases/Client Module/Client Creation/Other Information
+
+2024-02-28 16:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Other Information/Page_Core/input_CARD Member_drone3")): Object: 'Object Repository/Captured Object/Other Information/Page_Core/input_CARD Member_drone3' is clicked on
+
+2024-02-28 16:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Other Information/Page_Core/input_CARD Member_drone3' is clicked on
+
+2024-02-28 16:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Captured Object/Other Information/Page_Core/input_YES_drone3")): Object: 'Object Repository/Captured Object/Other Information/Page_Core/input_YES_drone3' is clicked on
+
+2024-02-28 16:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Captured Object/Other Information/Page_Core/input_YES_drone3' is clicked on
+
+2024-02-28 16:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_FirstName_txtSpousefname"), "Natasha"): Text 'Natasha' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_FirstName_txtSpousefname'
+
+2024-02-28 16:23:04 - [MESSAGE][PASSED] - Text 'Natasha' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_FirstName_txtSpousefname'
+
+2024-02-28 16:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname' is clicked on
+
+2024-02-28 16:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname' is clicked on
+
+2024-02-28 16:23:05 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname' is double clicked on
+
+2024-02-28 16:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname' is double clicked on
+
+2024-02-28 16:23:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname"), "The"): Text 'The' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname'
+
+2024-02-28 16:23:07 - [MESSAGE][PASSED] - Text 'The' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname'
+
+2024-02-28 16:23:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_LastName_txtSpouselname"), "Romanoff"): Text 'Romanoff' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_LastName_txtSpouselname'
+
+2024-02-28 16:23:08 - [MESSAGE][PASSED] - Text 'Romanoff' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_LastName_txtSpouselname'
+
+2024-02-28 16:23:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale"), "74", true): All options with value '74' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale'  using regular expression
+
+2024-02-28 16:23:10 - [MESSAGE][PASSED] - All options with value '74' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale'  using regular expression
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - currentDate = new java.util.Date(): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - calendar = Calendar.getInstance(): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - calendar.setTime(currentDate): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - calendar.add(YEAR, -20): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - dateTwentyYearsBack = calendar.getTime(): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - formattedDate = dateFormat.format(dateTwentyYearsBack): null
+
+2024-02-28 16:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige"), formattedDate): Text '02/28/2004' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige'
+
+2024-02-28 16:23:11 - [MESSAGE][PASSED] - Text '02/28/2004' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige'
+
+2024-02-28 16:23:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige'
+
+2024-02-28 16:23:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige'
+
+2024-02-28 16:23:12 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday"), formattedDate): Text '02/28/2004' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday'
+
+2024-02-28 16:23:13 - [MESSAGE][PASSED] - Text '02/28/2004' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday'
+
+2024-02-28 16:23:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday'
+
+2024-02-28 16:23:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday'
+
+2024-02-28 16:23:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--Aborlan - PalawanAbra De I_52077c"), "3560", true): All options with value '3560' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--Aborlan - PalawanAbra De I_52077c'  using regular expression
+
+2024-02-28 16:23:59 - [MESSAGE][PASSED] - All options with value '3560' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--Aborlan - PalawanAbra De I_52077c'  using regular expression
+
+2024-02-28 16:23:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64"), "491", true): All options with value '491' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64'  using regular expression
+
+2024-02-28 16:24:01 - [MESSAGE][PASSED] - All options with value '491' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64'  using regular expression
+
+2024-02-28 16:24:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596"), "1759", true): All options with value '1759' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'  using regular expression
+
+2024-02-28 16:24:03 - [MESSAGE][PASSED] - All options with value '1759' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'  using regular expression
+
+2024-02-28 16:24:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_SourceOf Income_txtCompanyname"), "CMIT"): Text 'CMIT' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_SourceOf Income_txtCompanyname'
+
+2024-02-28 16:24:04 - [MESSAGE][PASSED] - Text 'CMIT' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_SourceOf Income_txtCompanyname'
+
+2024-02-28 16:24:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:24:06 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:24:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c"), "197", true): All options with value '197' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:24:08 - [MESSAGE][PASSED] - All options with value '197' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c'  using regular expression
+
+2024-02-28 16:24:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber"), "09091231231"): Text '09091231231' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber'
+
+2024-02-28 16:24:09 - [MESSAGE][PASSED] - Text '09091231231' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber'
+
+2024-02-28 16:24:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber'
+
+2024-02-28 16:24:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber'
+
+2024-02-28 16:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName1"), "Bruce Banner"): Text 'Bruce Banner' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName1'
+
+2024-02-28 16:24:11 - [MESSAGE][PASSED] - Text 'Bruce Banner' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName1'
+
+2024-02-28 16:24:11 - [TEST_STEP][PASSED] - setText(findTestObject("Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday1"), formattedDate): Text '02/28/2004' is set on object 'Object Repository/Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday1'
+
+2024-02-28 16:24:12 - [MESSAGE][PASSED] - Text '02/28/2004' is set on object 'Object Repository/Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday1'
+
+2024-02-28 16:24:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2"), "763", true): All options with value '763' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2'  using regular expression
+
+2024-02-28 16:24:14 - [MESSAGE][PASSED] - All options with value '763' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2'  using regular expression
+
+2024-02-28 16:24:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1"), "75", true): All options with value '75' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1'  using regular expression
+
+2024-02-28 16:24:16 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1'  using regular expression
+
+2024-02-28 16:24:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1"), "203", true): All options with value '203' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1'  using regular expression
+
+2024-02-28 16:24:18 - [MESSAGE][PASSED] - All options with value '203' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1'  using regular expression
+
+2024-02-28 16:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_withDisability If Yes, specify the kind_30fc26")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_withDisability If Yes, specify the kind_30fc26' is clicked on
+
+2024-02-28 16:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_withDisability If Yes, specify the kind_30fc26' is clicked on
+
+2024-02-28 16:24:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO'  using regular expression
+
+2024-02-28 16:24:21 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO'  using regular expression
+
+2024-02-28 16:24:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1'  using regular expression
+
+2024-02-28 16:24:22 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1'  using regular expression
+
+2024-02-28 16:24:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea"), "1803", true): All options with value '1803' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea'  using regular expression
+
+2024-02-28 16:24:24 - [MESSAGE][PASSED] - All options with value '1803' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea'  using regular expression
+
+2024-02-28 16:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1' is clicked on
+
+2024-02-28 16:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1' is clicked on
+
+2024-02-28 16:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName2"), "Peter Parker"): Text 'Peter Parker' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName2'
+
+2024-02-28 16:24:27 - [MESSAGE][PASSED] - Text 'Peter Parker' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName2'
+
+2024-02-28 16:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday2"), formattedDate): Text '02/28/2004' is set on object 'Object Repository/Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday2'
+
+2024-02-28 16:24:27 - [MESSAGE][PASSED] - Text '02/28/2004' is set on object 'Object Repository/Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday2'
+
+2024-02-28 16:24:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1"), "758", true): All options with value '758' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1'  using regular expression
+
+2024-02-28 16:24:29 - [MESSAGE][PASSED] - All options with value '758' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1'  using regular expression
+
+2024-02-28 16:24:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2"), "75", true): All options with value '75' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2'  using regular expression
+
+2024-02-28 16:24:31 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2'  using regular expression
+
+2024-02-28 16:24:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2"), "203", true): All options with value '203' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2'  using regular expression
+
+2024-02-28 16:24:33 - [MESSAGE][PASSED] - All options with value '203' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2'  using regular expression
+
+2024-02-28 16:24:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_Additional Beneficiary If any")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_Additional Beneficiary If any' is clicked on
+
+2024-02-28 16:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_Additional Beneficiary If any' is clicked on
+
+2024-02-28 16:24:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2"), "180", true): All options with value '180' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2'  using regular expression
+
+2024-02-28 16:24:36 - [MESSAGE][PASSED] - All options with value '180' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2'  using regular expression
+
+2024-02-28 16:24:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary"), "1800", true): All options with value '1800' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary'  using regular expression
+
+2024-02-28 16:24:37 - [MESSAGE][PASSED] - All options with value '1800' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary'  using regular expression
+
+2024-02-28 16:24:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2"), "1", true): All options with value '1' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2'  using regular expression
+
+2024-02-28 16:24:38 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2'  using regular expression
+
+2024-02-28 16:24:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtDisability2"), "ADHD"): Text 'ADHD' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtDisability2'
+
+2024-02-28 16:24:39 - [MESSAGE][PASSED] - Text 'ADHD' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtDisability2'
+
+2024-02-28 16:24:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3"), "1", true): All options with value '1' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3'  using regular expression
+
+2024-02-28 16:24:41 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3'  using regular expression
+
+2024-02-28 16:24:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1"), "1803", true): All options with value '1803' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1'  using regular expression
+
+2024-02-28 16:24:43 - [MESSAGE][PASSED] - All options with value '1803' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1'  using regular expression
+
+2024-02-28 16:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1' is clicked on
+
+2024-02-28 16:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1' is clicked on
+
+2024-02-28 16:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3' is clicked on
+
+2024-02-28 16:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3' is clicked on
+
+2024-02-28 16:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3"), "Wanda Vision"): Text 'Wanda Vision' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3'
+
+2024-02-28 16:24:45 - [MESSAGE][PASSED] - Text 'Wanda Vision' is set on object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3'
+
+2024-02-28 16:24:45 - [TEST_STEP][PASSED] - setText(findTestObject("Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday3"), formattedDate): Text '02/28/2004' is set on object 'Object Repository/Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday3'
+
+2024-02-28 16:24:46 - [MESSAGE][PASSED] - Text '02/28/2004' is set on object 'Object Repository/Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday3'
+
+2024-02-28 16:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/label_Relationship")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/label_Relationship' is clicked on
+
+2024-02-28 16:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/label_Relationship' is clicked on
+
+2024-02-28 16:24:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1_2"), "766", true): All options with value '766' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1_2'  using regular expression
+
+2024-02-28 16:24:48 - [MESSAGE][PASSED] - All options with value '766' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1_2'  using regular expression
+
+2024-02-28 16:24:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2_3"), "75", true): All options with value '75' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2_3'  using regular expression
+
+2024-02-28 16:24:50 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2_3'  using regular expression
+
+2024-02-28 16:24:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2_3"), "199", true): All options with value '199' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2_3'  using regular expression
+
+2024-02-28 16:24:52 - [MESSAGE][PASSED] - All options with value '199' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2_3'  using regular expression
+
+2024-02-28 16:24:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary_1"), "1801", true): All options with value '1801' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary_1'  using regular expression
+
+2024-02-28 16:24:54 - [MESSAGE][PASSED] - All options with value '1801' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary_1'  using regular expression
+
+2024-02-28 16:24:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4'  using regular expression
+
+2024-02-28 16:24:56 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4'  using regular expression
+
+2024-02-28 16:24:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4_5"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4_5'  using regular expression
+
+2024-02-28 16:24:58 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4_5'  using regular expression
+
+2024-02-28 16:24:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1_2"), "1804", true): All options with value '1804' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1_2'  using regular expression
+
+2024-02-28 16:24:59 - [MESSAGE][PASSED] - All options with value '1804' are selected in object 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1_2'  using regular expression
+
+2024-02-28 16:24:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/CRA" time="24.036" classname="Test Cases/Client Module/Client Creation/CRA" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:25:00 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/CRA: Test Cases/Client Module/Client Creation/CRA
+
+2024-02-28 16:25:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015"), "2", true): All options with value '2' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015'  using regular expression
+
+2024-02-28 16:25:02 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015'  using regular expression
+
+2024-02-28 16:25:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1"), "5", true): All options with value '5' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1'  using regular expression
+
+2024-02-28 16:25:04 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1'  using regular expression
+
+2024-02-28 16:25:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51020"), "8", true): All options with value '8' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51020'  using regular expression
+
+2024-02-28 16:25:06 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51020'  using regular expression
+
+2024-02-28 16:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030")): Object: 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030' is clicked on
+
+2024-02-28 16:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030' is clicked on
+
+2024-02-28 16:25:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030"), 0): Scroll to object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030' successfully
+
+2024-02-28 16:25:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-28 16:25:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030' successfully
+
+2024-02-28 16:25:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      01020"), "11", true): All options with value '11' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      01020'  using regular expression
+
+2024-02-28 16:25:08 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      01020'  using regular expression
+
+2024-02-28 16:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015")): Object: 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015' is clicked on
+
+2024-02-28 16:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015' is clicked on
+
+2024-02-28 16:25:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      0030"), "14", true): All options with value '14' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      0030'  using regular expression
+
+2024-02-28 16:25:10 - [MESSAGE][PASSED] - All options with value '14' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      0030'  using regular expression
+
+2024-02-28 16:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015")): Object: 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015' is clicked on
+
+2024-02-28 16:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015' is clicked on
+
+2024-02-28 16:25:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2"), "17", true): All options with value '17' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2'  using regular expression
+
+2024-02-28 16:25:12 - [MESSAGE][PASSED] - All options with value '17' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2'  using regular expression
+
+2024-02-28 16:25:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2_3"), "20", true): All options with value '20' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2_3'  using regular expression
+
+2024-02-28 16:25:14 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2_3'  using regular expression
+
+2024-02-28 16:25:14 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2024-02-28 16:25:22 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2024-02-28 16:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/KYC/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/KYC/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/KYC" time="17.917" classname="Test Cases/Client Module/Client Creation/KYC" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:25:24 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/KYC: Test Cases/Client Module/Client Creation/KYC
+
+2024-02-28 16:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Household Member_txtHouseholdMember"), "9"): Text '9' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Household Member_txtHouseholdMember'
+
+2024-02-28 16:25:26 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Household Member_txtHouseholdMember'
+
+2024-02-28 16:25:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'  using regular expression
+
+2024-02-28 16:25:28 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'  using regular expression
+
+2024-02-28 16:25:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596"), "1760", true): All options with value '1760' are selected in object 'Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'  using regular expression
+
+2024-02-28 16:25:30 - [MESSAGE][PASSED] - All options with value '1760' are selected in object 'Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'  using regular expression
+
+2024-02-28 16:25:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/select_--Select--Below 1,000 pesos1001 - 3,_8e7891"), "1777", true): All options with value '1777' are selected in object 'Object Repository/Loan Creation/KYC/Page_Core/select_--Select--Below 1,000 pesos1001 - 3,_8e7891'  using regular expression
+
+2024-02-28 16:25:32 - [MESSAGE][PASSED] - All options with value '1777' are selected in object 'Object Repository/Loan Creation/KYC/Page_Core/select_--Select--Below 1,000 pesos1001 - 3,_8e7891'  using regular expression
+
+2024-02-28 16:25:32 - [TEST_STEP][PASSED] - setText(findTestObject("Loan Creation/KYC/Page_Core/input_HouseholdMonthly Expense_txtMonthlyExpense"), "5000"): Text '5000' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_HouseholdMonthly Expense_txtMonthlyExpense'
+
+2024-02-28 16:25:33 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_HouseholdMonthly Expense_txtMonthlyExpense'
+
+2024-02-28 16:25:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Children in School (input nu_5d3c1c"), "2"): Text '2' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Children in School (input nu_5d3c1c'
+
+2024-02-28 16:25:34 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Children in School (input nu_5d3c1c'
+
+2024-02-28 16:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/input_HighSchool_txtVocational"), "2"): Text '2' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_HighSchool_txtVocational'
+
+2024-02-28 16:25:35 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_HighSchool_txtVocational'
+
+2024-02-28 16:25:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/input_Pre-School_txtCollege"), "1"): Text '1' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_Pre-School_txtCollege'
+
+2024-02-28 16:25:36 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Loan Creation/KYC/Page_Core/input_Pre-School_txtCollege'
+
+2024-02-28 16:25:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-28 16:25:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-28 16:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/KYC/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/KYC/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/KYC/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/DSPPI" time="52.248" classname="Test Cases/Client Module/Client Creation/DSPPI" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:25:42 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/DSPPI: Test Cases/Client Module/Client Creation/DSPPI
+
+2024-02-28 16:25:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - ARMM8 - Il_f2aada"), "8", true): All options with value '8' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - ARMM8 - Il_f2aada'  using regular expression
+
+2024-02-28 16:25:46 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - ARMM8 - Il_f2aada'  using regular expression
+
+2024-02-28 16:25:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - 7 o higit _f836c6"), "9", true): All options with value '9' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - 7 o higit _f836c6'  using regular expression
+
+2024-02-28 16:25:48 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - 7 o higit _f836c6'  using regular expression
+
+2024-02-28 16:25:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Ika-6 na b_ee969e"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Ika-6 na b_ee969e'  using regular expression
+
+2024-02-28 16:25:50 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Ika-6 na b_ee969e'  using regular expression
+
+2024-02-28 16:25:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_b84cbb"), "5", true): All options with value '5' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_b84cbb'  using regular expression
+
+2024-02-28 16:25:52 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_b84cbb'  using regular expression
+
+2024-02-28 16:25:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_840447"), "7", true): All options with value '7' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_840447'  using regular expression
+
+2024-02-28 16:25:54 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_840447'  using regular expression
+
+2024-02-28 16:25:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo'  using regular expression
+
+2024-02-28 16:25:55 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo'  using regular expression
+
+2024-02-28 16:25:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f'  using regular expression
+
+2024-02-28 16:25:57 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f'  using regular expression
+
+2024-02-28 16:25:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo'  using regular expression
+
+2024-02-28 16:25:59 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo'  using regular expression
+
+2024-02-28 16:25:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo'  using regular expression
+
+2024-02-28 16:26:01 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo'  using regular expression
+
+2024-02-28 16:26:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo"), "0", true): All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo'  using regular expression
+
+2024-02-28 16:26:02 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo'  using regular expression
+
+2024-02-28 16:26:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-28 16:26:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-28 16:26:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo"), "7", true): All options with value '7' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo'  using regular expression
+
+2024-02-28 16:26:09 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo'  using regular expression
+
+2024-02-28 16:26:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f"), "7", true): All options with value '7' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f'  using regular expression
+
+2024-02-28 16:26:11 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f'  using regular expression
+
+2024-02-28 16:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/td_--      Select      --0 - Hindi13 - Oo")): Object: 'Object Repository/Loan Creation/DSPPI/Page_Core/td_--      Select      --0 - Hindi13 - Oo' is clicked on
+
+2024-02-28 16:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/DSPPI/Page_Core/td_--      Select      --0 - Hindi13 - Oo' is clicked on
+
+2024-02-28 16:26:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo"), "13", true): All options with value '13' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo'  using regular expression
+
+2024-02-28 16:26:14 - [MESSAGE][PASSED] - All options with value '13' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo'  using regular expression
+
+2024-02-28 16:26:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo"), "11", true): All options with value '11' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo'  using regular expression
+
+2024-02-28 16:26:16 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo'  using regular expression
+
+2024-02-28 16:26:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo"), "8", true): All options with value '8' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo'  using regular expression
+
+2024-02-28 16:26:17 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo'  using regular expression
+
+2024-02-28 16:26:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-28 16:26:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-28 16:26:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--GLIP 1GLIP 2IPPaglambo"), "674", true): All options with value '674' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--GLIP 1GLIP 2IPPaglambo'  using regular expression
+
+2024-02-28 16:26:24 - [MESSAGE][PASSED] - All options with value '674' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--GLIP 1GLIP 2IPPaglambo'  using regular expression
+
+2024-02-28 16:26:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--Adasen InlaudAetaAetaAlang_82eebf"), "4511", true): All options with value '4511' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--Adasen InlaudAetaAetaAlang_82eebf'  using regular expression
+
+2024-02-28 16:26:29 - [MESSAGE][PASSED] - All options with value '4511' are selected in object 'Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--Adasen InlaudAetaAetaAlang_82eebf'  using regular expression
+
+2024-02-28 16:26:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-28 16:26:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-28 16:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/DSPPI/Page_Core/button_NEXT")): Object: 'Object Repository/Loan Creation/DSPPI/Page_Core/button_NEXT' is clicked on
+
+2024-02-28 16:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/DSPPI/Page_Core/button_NEXT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client Module/Client Creation/Consent Waiver" time="5.219" classname="Test Cases/Client Module/Client Creation/Consent Waiver" status="PASSED">
+         <system-out><![CDATA[2024-02-28 16:26:34 - [TEST_CASE][PASSED] - Test Cases/Client Module/Client Creation/Consent Waiver: Test Cases/Client Module/Client Creation/Consent Waiver
+
+2024-02-28 16:26:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2024-02-28 16:26:35 - [TEST_STEP][PASSED] - health_dec = driver.findElement(By.id("healthDeclarationYes")): null
+
+2024-02-28 16:26:35 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", health_dec): null
+
+2024-02-28 16:26:35 - [TEST_STEP][PASSED] - Sumasangayonako1 = driver.findElement(By.id("txtiAgree")): null
+
+2024-02-28 16:26:36 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", Sumasangayonako1): null
+
+2024-02-28 16:26:36 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Loan Creation/Consent Waiver/Page_Core/div_PAGSANG-AYON ATPAGTALIKOD (CONSENT AND _48483f")): Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/div_PAGSANG-AYON ATPAGTALIKOD (CONSENT AND _48483f' is hovered
+
+2024-02-28 16:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/div_PAGSANG-AYON ATPAGTALIKOD (CONSENT AND _48483f' is hovered
+
+2024-02-28 16:26:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Loan Creation/Consent Waiver/Page_Core/p_Ako si   aynagpapatunay na ang lahat ng i_cea5bf")): Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/p_Ako si   aynagpapatunay na ang lahat ng i_cea5bf' is hovered
+
+2024-02-28 16:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/p_Ako si   aynagpapatunay na ang lahat ng i_cea5bf' is hovered
+
+2024-02-28 16:26:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Loan Creation/Consent Waiver/Page_Core/div_Sumasang-ayonako")): Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/div_Sumasang-ayonako' is clicked on
+
+2024-02-28 16:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/div_Sumasang-ayonako' is clicked on
+
+2024-02-28 16:26:38 - [TEST_STEP][PASSED] - Sumasangayonako2 = driver.findElement(By.id("txtiAgreeCBU")): null
+
+2024-02-28 16:26:39 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", Sumasangayonako2): null
+
+2024-02-28 16:26:39 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Loan Creation/Consent Waiver/Page_Core/h4_CAPITAL BUILD-UP(CBU)MICRO-SAVINGS (ACCO_4822a1")): Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/h4_CAPITAL BUILD-UP(CBU)MICRO-SAVINGS (ACCO_4822a1' is hovered
+
+2024-02-28 16:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Creation/Consent Waiver/Page_Core/h4_CAPITAL BUILD-UP(CBU)MICRO-SAVINGS (ACCO_4822a1' is hovered]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-28 16:17:28 - [TEST_SUITE][PASSED] - CeNG Client Creation Test Suites: Test Cases/Client Module/Client Creation/Consent Waiver]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

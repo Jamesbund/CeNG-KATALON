@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test 1" time="39.685" tests="2" failures="0" errors="0">
+   <testsuite name="Test 1" tests="2" failures="0" errors="0" time="39.685" skipped="0" timestamp="2024-01-31 09:35:47" hostname="ja.bundalian - 10.9.2.35" id="Test Suites/Test Login and Logout/Test 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ja.bundalian/Katalon Studio/CeNG Web Automation/Reports/20240131_093525/Test Login and Logout/Test 1/20240131_093525"/>
+         <property name="logFiles" value="/Users/ja.bundalian/Katalon Studio/CeNG Web Automation/Reports/20240131_093525/Test Login and Logout/Test 1/20240131_093525/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ja.bundalian - 10.9.2.35"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.9.2.35"/>
+         <property name="sessionId" value="e26d9aa83167dfc20f5a8ac72151494f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login and Logout/Login" time="36.514" classname="Test Cases/Login and Logout/Login" status="PASSED">
+         <system-out><![CDATA[2024-01-31 09:35:48 - [TEST_CASE][PASSED] - Test Cases/Login and Logout/Login: Test Cases/Login and Logout/Login
+
+2024-01-31 09:35:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-31 09:35:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-31 09:35:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-31 09:35:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-31 09:35:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-31 09:35:56 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-31 09:35:56 - [TEST_STEP][PASSED] - navigateToUrl("http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login"): Navigate to 'http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login' successfully
+
+2024-01-31 09:35:59 - [MESSAGE][PASSED] - Navigate to 'http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login' successfully
+
+2024-01-31 09:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Card eSystemNextGen/input_Username_txtUsername"), "rvdelatorre"): Text 'rvdelatorre' is set on object 'Object Repository/Page_Card eSystemNextGen/input_Username_txtUsername'
+
+2024-01-31 09:36:01 - [MESSAGE][PASSED] - Text 'rvdelatorre' is set on object 'Object Repository/Page_Card eSystemNextGen/input_Username_txtUsername'
+
+2024-01-31 09:36:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword"), "+occZAnJluP99ZUDpJTytA=="): Text ****** has been set on object 'Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword'
+
+2024-01-31 09:36:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword'
+
+2024-01-31 09:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword")): Object: 'Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword' is clicked on
+
+2024-01-31 09:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword' is clicked on
+
+2024-01-31 09:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Card eSystemNextGen/button_Login")): Object: 'Object Repository/Page_Card eSystemNextGen/button_Login' is clicked on
+
+2024-01-31 09:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Card eSystemNextGen/button_Login' is clicked on
+
+2024-01-31 09:36:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Core/h4_Dashboard")): Object 'Object Repository/Page_Core/h4_Dashboard' is visible
+
+2024-01-31 09:36:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Core/h4_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login and Logout/Logout" time="2.635" classname="Test Cases/Login and Logout/Logout" status="PASSED">
+         <system-out><![CDATA[2024-01-31 09:36:24 - [TEST_CASE][PASSED] - Test Cases/Login and Logout/Logout: Test Cases/Login and Logout/Logout
+
+2024-01-31 09:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Core/img_January 31, 2024 - 092106AM_rounded-circle")): Object: 'Object Repository/Page_Core/img_January 31, 2024 - 092106AM_rounded-circle' is clicked on
+
+2024-01-31 09:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Core/img_January 31, 2024 - 092106AM_rounded-circle' is clicked on
+
+2024-01-31 09:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Core/span_Logout")): Object: 'Object Repository/Page_Core/span_Logout' is clicked on
+
+2024-01-31 09:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Core/span_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-31 09:35:47 - [TEST_SUITE][PASSED] - Test 1: Test Cases/Login and Logout/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

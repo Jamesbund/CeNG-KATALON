@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test 1,Chrome 121.0.0.0,,,2024-01-31 09:30:16,2024-01-31 09:31:07,50.906s,FAILED
+,,,,,,,
+Test Cases/Login and Logout/Login,Chrome 121.0.0.0,,,2024-01-31 09:30:17,2024-01-31 09:31:02,45.380s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-01-31 09:30:17,2024-01-31 09:30:30,12.685s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,2024-01-31 09:30:30,2024-01-31 09:30:30,0.489s,PASSED
+"navigateToUrl(""http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login"")",Chrome 121.0.0.0,,,2024-01-31 09:30:30,2024-01-31 09:30:34,3.663s,PASSED
+"setText(findTestObject(""Object Repository/Page_Card eSystemNextGen/input_Username_txtUsername""), ""rvdelatorre"")",Chrome 121.0.0.0,,,2024-01-31 09:30:34,2024-01-31 09:30:36,1.779s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword""), ""+occZAnJluP99ZUDpJTytA=="")",Chrome 121.0.0.0,,,2024-01-31 09:30:36,2024-01-31 09:30:36,0.710s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword""))",Chrome 121.0.0.0,,,2024-01-31 09:30:36,2024-01-31 09:30:37,0.860s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/button_Login""))",Chrome 121.0.0.0,,,2024-01-31 09:30:37,2024-01-31 09:30:38,1.082s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Core/h4_Dashboard""))",Chrome 121.0.0.0,,,2024-01-31 09:30:38,2024-01-31 09:31:00,21.162s,PASSED
+"click(findTestObject(""Object Repository/Page_Core/img_January 31, 2024 - 092106AM_rounded-circle""))",Chrome 121.0.0.0,,,2024-01-31 09:31:00,2024-01-31 09:31:01,1.667s,PASSED
+"click(findTestObject(""Object Repository/Page_Core/span_Logout""))",Chrome 121.0.0.0,,,2024-01-31 09:31:01,2024-01-31 09:31:02,0.871s,PASSED
+,,,,,,,
+Test Cases/Login and Logout/Logout,Chrome 121.0.0.0,,,2024-01-31 09:31:02,2024-01-31 09:31:07,5.131s,FAILED
+"click(findTestObject(""Object Repository/Page_Core/img_January 31, 2024 - 092106AM_rounded-circle""))",Chrome 121.0.0.0,,,2024-01-31 09:31:02,2024-01-31 09:31:07,4.871s,FAILED

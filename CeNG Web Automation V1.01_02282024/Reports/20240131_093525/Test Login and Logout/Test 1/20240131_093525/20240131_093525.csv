@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test 1,Chrome 121.0.0.0,,,2024-01-31 09:35:47,2024-01-31 09:36:27,39.685s,PASSED
+,,,,,,,
+Test Cases/Login and Logout/Login,Chrome 121.0.0.0,,,2024-01-31 09:35:48,2024-01-31 09:36:24,36.514s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-01-31 09:35:48,2024-01-31 09:35:55,7.152s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,2024-01-31 09:35:55,2024-01-31 09:35:56,0.486s,PASSED
+"navigateToUrl(""http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login"")",Chrome 121.0.0.0,,,2024-01-31 09:35:56,2024-01-31 09:35:59,3.393s,PASSED
+"setText(findTestObject(""Object Repository/Page_Card eSystemNextGen/input_Username_txtUsername""), ""rvdelatorre"")",Chrome 121.0.0.0,,,2024-01-31 09:35:59,2024-01-31 09:36:01,1.965s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword""), ""+occZAnJluP99ZUDpJTytA=="")",Chrome 121.0.0.0,,,2024-01-31 09:36:01,2024-01-31 09:36:02,0.875s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword""))",Chrome 121.0.0.0,,,2024-01-31 09:36:02,2024-01-31 09:36:03,0.816s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/button_Login""))",Chrome 121.0.0.0,,,2024-01-31 09:36:03,2024-01-31 09:36:04,1.096s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Core/h4_Dashboard""))",Chrome 121.0.0.0,,,2024-01-31 09:36:04,2024-01-31 09:36:24,20.264s,PASSED
+,,,,,,,
+Test Cases/Login and Logout/Logout,Chrome 121.0.0.0,,,2024-01-31 09:36:24,2024-01-31 09:36:27,2.635s,PASSED
+"click(findTestObject(""Object Repository/Page_Core/img_January 31, 2024 - 092106AM_rounded-circle""))",Chrome 121.0.0.0,,,2024-01-31 09:36:24,2024-01-31 09:36:26,1.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Core/span_Logout""))",Chrome 121.0.0.0,,,2024-01-31 09:36:26,2024-01-31 09:36:27,0.890s,PASSED
