@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Select      0030</name>
+   <tag></tag>
+   <elementGuidId>7dc2eef6-5e29-44aa-84b2-dfef101520f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='tblRiskclassFifthBody']/tr/td[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a8cb4a63-85a1-47d5-8a8f-66dd3e074c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center </value>
+      <webElementGuid>cbcd5215-cc96-4aac-bbfc-323cc9734b04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>     Select      0030</value>
+      <webElementGuid>656fef0f-89ae-4f34-99cb-9779bb450866</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblRiskclassFifthBody&quot;)/tr[1]/td[@class=&quot;text-center&quot;]</value>
+      <webElementGuid>b815eff0-0be9-4b66-93fb-9a0c599e6ac5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblRiskclassFifthBody']/tr/td[9]</value>
+      <webElementGuid>a43b30e5-9ce6-4716-b5d2-cbf9c638d9f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Listed'])[1]/following::td[1]</value>
+      <webElementGuid>bae3e8e0-66a3-48a4-b76d-a1a04d4f2332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Listed'])[2]/following::td[3]</value>
+      <webElementGuid>d021278f-f688-4d1c-bf72-4a21108ccdfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Activities'])[1]/preceding::td[2]</value>
+      <webElementGuid>ff64402b-2fb8-4832-8211-db6377ad78fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self-Employed'])[1]/preceding::td[4]</value>
+      <webElementGuid>3bb91da9-ab7f-45ce-94ef-5698eac396f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[5]/tr/td[9]</value>
+      <webElementGuid>e3bd7838-38a6-4848-8a44-ec6322006aba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '     Select      0030' or . = '     Select      0030')]</value>
+      <webElementGuid>20e33592-32e5-4887-8ec5-3b204186562d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

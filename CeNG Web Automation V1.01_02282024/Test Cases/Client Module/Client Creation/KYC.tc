@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Know Your Client</description>
+   <name>KYC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed9c3125-6f9b-4809-8b37-e924312f9a62</testCaseGuid>
+</TestCaseEntity>

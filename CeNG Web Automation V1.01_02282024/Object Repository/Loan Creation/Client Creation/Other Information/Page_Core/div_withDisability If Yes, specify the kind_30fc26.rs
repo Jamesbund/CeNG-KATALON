@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_withDisability If Yes, specify the kind_30fc26</name>
+   <tag></tag>
+   <elementGuidId>a03c0ed0-f522-4e66-bba9-d4f6452fc882</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='5']/div/div/div[4]/div[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1cbb3da0-0120-4846-8d1f-9c169b106e0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-2</value>
+      <webElementGuid>62701402-7f68-460e-879b-a8f4912d4562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+															with
+																Disability If Yes, specify the kind of disability: 
+														</value>
+      <webElementGuid>a8adf8f7-cce1-485b-a8b4-2cadd4cfe24e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;5&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-2&quot;]</value>
+      <webElementGuid>f5474100-419a-4529-b2de-6dfc1d670e21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='5']/div/div/div[4]/div[7]</value>
+      <webElementGuid>b0ca4cd4-ec9b-4e8d-8234-b850df53c6df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Primary/Secondary)'])[1]/following::div[1]</value>
+      <webElementGuid>980bcec4-68e1-4b5a-858d-73ab761313bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[7]</value>
+      <webElementGuid>0431140b-43b2-49fe-8d24-cf83e69b07ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+															with
+																Disability If Yes, specify the kind of disability: 
+														' or . = '
+															with
+																Disability If Yes, specify the kind of disability: 
+														')]</value>
+      <webElementGuid>54866d25-8582-4baf-8beb-11faa65f5dd1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
