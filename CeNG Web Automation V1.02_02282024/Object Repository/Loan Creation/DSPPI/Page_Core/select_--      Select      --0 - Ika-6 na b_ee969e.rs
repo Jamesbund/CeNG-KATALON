@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--      Select      --0 - Ika-6 na b_ee969e</name>
+   <tag></tag>
+   <elementGuidId>ef9bdf8d-6d4e-44f1-b217-1c9e60199264</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbothirdQAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbothirdQAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8e4d8896-c250-4d8d-b28a-441dedcb7639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validatelenght required gb-border-fcs form-control Ans</value>
+      <webElementGuid>6efe3486-e9b2-42c1-b8bf-f38b7dff2074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbothirdQAnswer</value>
+      <webElementGuid>6fd0a291-8067-4654-9590-8a1e31226ceb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--      Select      --[0] - Ika-6 na baitang o mas mababa pa[6] - Ilang taon sa mataas na paaralan[7] - Nakatapos ng mataas na paaralan</value>
+      <webElementGuid>503e0e18-2ac6-49b0-89ab-d6fa1679596c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbothirdQAnswer&quot;)</value>
+      <webElementGuid>54a79223-b4ee-49b6-a646-5ffb6c61e61f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbothirdQAnswer']</value>
+      <webElementGuid>d70a2960-2e05-475d-b85f-057045be9e9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblPPIBodyThird']/tr/td[2]/select</value>
+      <webElementGuid>a7657742-4593-454d-a5d0-a11e17e5be9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puntos'])[2]/following::select[3]</value>
+      <webElementGuid>8ffc8e62-d0f5-4c4c-8fa5-3c2546b982de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mga Indikasyon/Indicators'])[2]/following::select[3]</value>
+      <webElementGuid>a694a1b7-3646-4d5b-8c62-d71f854a3729</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Score:'])[1]/preceding::select[9]</value>
+      <webElementGuid>881d9f79-3e65-4972-90aa-15c6377af2e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[3]/tr/td[2]/select</value>
+      <webElementGuid>5ffca475-6cb4-448a-b134-f274b74aa59f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbothirdQAnswer' and (text() = '--      Select      --[0] - Ika-6 na baitang o mas mababa pa[6] - Ilang taon sa mataas na paaralan[7] - Nakatapos ng mataas na paaralan' or . = '--      Select      --[0] - Ika-6 na baitang o mas mababa pa[6] - Ilang taon sa mataas na paaralan[7] - Nakatapos ng mataas na paaralan')]</value>
+      <webElementGuid>f375a2ec-6faa-44ec-bbfc-0a038dd79190</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

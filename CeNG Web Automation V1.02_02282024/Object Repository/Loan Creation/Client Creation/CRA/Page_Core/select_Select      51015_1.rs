@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select      51015_1</name>
+   <tag></tag>
+   <elementGuidId>58d3ca15-b75d-4aef-9150-55cd7823ff74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbosecondRiskAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbosecondRiskAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b964c3e9-f0c6-4949-b888-f68c16b53773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center gb-border-fcs Ans2</value>
+      <webElementGuid>e077c612-fba5-4f8a-ab2d-41b7fbf06d06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbosecondRiskAnswer</value>
+      <webElementGuid>41bca436-a723-4e83-971c-624df70511cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>     Select      51015</value>
+      <webElementGuid>452695ab-daac-4bea-b584-903c84e52d65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbosecondRiskAnswer&quot;)</value>
+      <webElementGuid>9e85b392-503e-40c1-a561-950a48400c11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbosecondRiskAnswer']</value>
+      <webElementGuid>b30b0909-d08c-4f1b-90a2-eb7e8512ce70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblRiskclassSecBody']/tr/td[9]/select</value>
+      <webElementGuid>43b5b8a8-a638-4ed8-acf9-c749a1c17ec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Countries other than mentioned in low and high risk.'])[1]/following::select[1]</value>
+      <webElementGuid>bafcd4ab-af78-4d17-a200-e26106751f4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Philippines within the area where the bank is operating.'])[1]/following::select[1]</value>
+      <webElementGuid>186e659d-2d63-481d-a79b-4a5acddc3f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public position of the client, DOSRI, Authorized Signatories'])[1]/preceding::select[1]</value>
+      <webElementGuid>3860e6d4-e768-4a5e-8728-1b6f42a53ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[4]/preceding::select[1]</value>
+      <webElementGuid>57bad51b-4158-40eb-85a2-4a786595ac9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[2]/tr/td[9]/select</value>
+      <webElementGuid>6e8a03cc-a26d-4358-96b1-7eec18857ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbosecondRiskAnswer' and (text() = '     Select      51015' or . = '     Select      51015')]</value>
+      <webElementGuid>39d9a3b1-7d22-4c4c-af56-2c4b543ba147</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

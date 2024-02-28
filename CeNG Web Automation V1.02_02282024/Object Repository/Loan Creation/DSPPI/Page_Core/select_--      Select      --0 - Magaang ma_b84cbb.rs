@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--      Select      --0 - Magaang ma_b84cbb</name>
+   <tag></tag>
+   <elementGuidId>5102789c-32ce-4eac-85c4-5cc5027b065e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbofourthQAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbofourthQAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8b31b894-ea77-4e38-b312-9daaacf8b427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validatelenght required gb-border-fcs form-control Ans</value>
+      <webElementGuid>12f2a86d-63e3-4d6a-96af-ccf3058751d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbofourthQAnswer</value>
+      <webElementGuid>27a691ef-a756-432b-8800-5b82b0ec193c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--      Select      --[0] - Magaang materyales (cogon, nipa, anahaw), Isinalba/ pansamantalang materyales, Magkahalo ngunit mas maraming isinalbang materyales[5] - Magkahalo ngunit mas maraming matitibay na materyales[6] - Matitibay na materyales (yero, aluminum, tile, konkreto, brick, bato, asbestos</value>
+      <webElementGuid>1c3bd1f8-967e-4e00-95c7-8842b6e2d60b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbofourthQAnswer&quot;)</value>
+      <webElementGuid>f45403b6-115e-41c9-82fe-5ee2c881a045</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbofourthQAnswer']</value>
+      <webElementGuid>46247779-ff49-4a84-ac59-b6a62d27cf46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblPPIBodyFourth']/tr/td[2]/select</value>
+      <webElementGuid>25a632ab-2008-4a77-9009-7425a05cc5bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puntos'])[2]/following::select[4]</value>
+      <webElementGuid>3d84c838-b18a-4be7-b078-7a980d3935a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mga Indikasyon/Indicators'])[2]/following::select[4]</value>
+      <webElementGuid>a06af578-ffd5-4607-addc-3363bd68d114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Score:'])[1]/preceding::select[8]</value>
+      <webElementGuid>3fd42047-ff61-4068-be03-3e4743e2f8da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[4]/tr/td[2]/select</value>
+      <webElementGuid>7a350422-18e9-4839-acda-57344446477b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbofourthQAnswer' and (text() = '--      Select      --[0] - Magaang materyales (cogon, nipa, anahaw), Isinalba/ pansamantalang materyales, Magkahalo ngunit mas maraming isinalbang materyales[5] - Magkahalo ngunit mas maraming matitibay na materyales[6] - Matitibay na materyales (yero, aluminum, tile, konkreto, brick, bato, asbestos' or . = '--      Select      --[0] - Magaang materyales (cogon, nipa, anahaw), Isinalba/ pansamantalang materyales, Magkahalo ngunit mas maraming isinalbang materyales[5] - Magkahalo ngunit mas maraming matitibay na materyales[6] - Matitibay na materyales (yero, aluminum, tile, konkreto, brick, bato, asbestos')]</value>
+      <webElementGuid>d4b7e439-4fc4-4a50-a0e2-4cfa64fa92e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
