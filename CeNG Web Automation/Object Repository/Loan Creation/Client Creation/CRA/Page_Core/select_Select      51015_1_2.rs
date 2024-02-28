@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select      51015_1_2</name>
+   <tag></tag>
+   <elementGuidId>b441025b-179c-4f16-a106-81a88a434dfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbosixthRiskAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbosixthRiskAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>448738b7-cd16-4eca-8163-8d641a047ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center gb-border-fcs Ans6</value>
+      <webElementGuid>475a305c-51ef-4428-857d-1daf29484e62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbosixthRiskAnswer</value>
+      <webElementGuid>be7db343-6f80-4152-a979-d528c7364986</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>     Select      51015</value>
+      <webElementGuid>a49406c7-2803-4786-b7bb-d1227a725e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbosixthRiskAnswer&quot;)</value>
+      <webElementGuid>eb9976cf-86a1-4cf9-8ca0-edb6b6165f85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbosixthRiskAnswer']</value>
+      <webElementGuid>89d15b5b-6997-4932-9a0c-875788a8d959</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblRiskclassSixBody']/tr/td[9]/select</value>
+      <webElementGuid>712af154-a593-4f79-a962-97d370722d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Casino, gaming, broker-dealers'])[1]/following::select[1]</value>
+      <webElementGuid>a91381c8-ec6c-4e64-8fe4-bb6d9d88c7df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All other business other than mentioned in high risk'])[1]/following::select[1]</value>
+      <webElementGuid>fa212d0a-9208-4e3e-bfc0-5c5c7bcfc1a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Types of service / products to be availed of'])[1]/preceding::select[1]</value>
+      <webElementGuid>bf7a3087-ea93-4d94-9ee3-251e5b83dd4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CBU/Micro-savings/ Micro-insurance/Microloans'])[1]/preceding::select[1]</value>
+      <webElementGuid>845f7f2f-c449-4fc5-b6c2-145233446f6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[6]/tr/td[9]/select</value>
+      <webElementGuid>94e7cfad-6447-4703-9dbc-354ac5cbed2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbosixthRiskAnswer' and (text() = '     Select      51015' or . = '     Select      51015')]</value>
+      <webElementGuid>84c31096-dceb-4946-a09f-d868184ef809</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

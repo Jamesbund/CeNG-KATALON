@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select      51020</name>
+   <tag></tag>
+   <elementGuidId>31269b9b-7ec9-451b-8584-c7448ef32110</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbothirdRiskAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbothirdRiskAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>7088cac0-e2ef-431e-8d02-7530e6091c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center gb-border-fcs Ans3</value>
+      <webElementGuid>fd20b211-0705-4fac-9fc9-85298b218845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbothirdRiskAnswer</value>
+      <webElementGuid>6e8b981f-c180-41fb-b487-e4c1c8cd0d1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>     Select      51020</value>
+      <webElementGuid>5342e638-80f3-4503-9323-d0b8887d6438</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbothirdRiskAnswer&quot;)</value>
+      <webElementGuid>8365515f-268a-4e7b-8911-952da72b9663</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbothirdRiskAnswer']</value>
+      <webElementGuid>a59b10fa-b2fe-4cbd-ae6c-8643acc94faa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblRiskclassThirdBody']/tr/td[9]/select</value>
+      <webElementGuid>fab35bac-390b-4773-9ed8-fee2b8f04ac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incumbent Politician'])[1]/following::select[1]</value>
+      <webElementGuid>23f6b169-1281-4602-8967-ee6c8d447711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rank and file/retired'])[1]/following::select[1]</value>
+      <webElementGuid>23bc308c-a6f6-420e-a1b9-dbb9358bdad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='With Materially Link Accounts'])[1]/preceding::select[1]</value>
+      <webElementGuid>5709cf0f-c91b-4b80-97ff-36a93f6960b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[5]/preceding::select[1]</value>
+      <webElementGuid>c39fe3f2-5767-4ba7-aa26-0704d7ede202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[3]/tr/td[9]/select</value>
+      <webElementGuid>9fc1f85d-c786-4432-9726-5e91fed10087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbothirdRiskAnswer' and (text() = '     Select      51020' or . = '     Select      51020')]</value>
+      <webElementGuid>aa6d67e8-7044-4081-ad06-d3c40fb16550</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

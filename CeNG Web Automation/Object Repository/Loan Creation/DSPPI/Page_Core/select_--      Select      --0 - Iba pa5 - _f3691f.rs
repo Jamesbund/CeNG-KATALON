@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--      Select      --0 - Iba pa5 - _f3691f</name>
+   <tag></tag>
+   <elementGuidId>2c438622-ee57-4c8c-b941-2b2527303c08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cboseventhQAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cboseventhQAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>2f5f742c-f70f-4c8e-b7bf-849b2214cc7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validatelenght required gb-border-fcs form-control Ans</value>
+      <webElementGuid>0c82b935-0515-46c5-ac50-2a8899a6b874</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cboseventhQAnswer</value>
+      <webElementGuid>94e2a011-55bc-48e1-b74b-f52c473a7555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--      Select      --[0] - Iba pa[5] - Balon[10] - Pansariling gamit, gripo, pangkomunidad na sistema ng tubig[7] - Pansariling gamit, may tubong balon o may tubong mababaw na balon[7] - Pinaghahatian, gripo, pangkomunidad na sistema ng tubig[6] - Pinaghahatian, may tubong malalim na balon</value>
+      <webElementGuid>85d8e994-385e-4b3a-aa6e-e65978585a2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cboseventhQAnswer&quot;)</value>
+      <webElementGuid>d96b720b-13f0-46b3-bcf9-de90eaeaf868</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cboseventhQAnswer']</value>
+      <webElementGuid>ceb67877-d7a8-4454-bc56-a5aa076423fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblPPIBodySeventh']/tr/td[2]/select</value>
+      <webElementGuid>923d30b0-9055-4073-80d7-0f2b1c99817d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puntos'])[2]/following::select[7]</value>
+      <webElementGuid>2fd7f7dc-d39a-4306-a899-e18d6f7f2495</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mga Indikasyon/Indicators'])[2]/following::select[7]</value>
+      <webElementGuid>2b010d18-6f74-4651-ae71-4f7391fbff4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Score:'])[1]/preceding::select[5]</value>
+      <webElementGuid>9f4144f2-c0ca-4447-b5da-e124e09323fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[7]/tr/td[2]/select</value>
+      <webElementGuid>55bbe07f-5730-4c1f-b252-03640623cc97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cboseventhQAnswer' and (text() = '--      Select      --[0] - Iba pa[5] - Balon[10] - Pansariling gamit, gripo, pangkomunidad na sistema ng tubig[7] - Pansariling gamit, may tubong balon o may tubong mababaw na balon[7] - Pinaghahatian, gripo, pangkomunidad na sistema ng tubig[6] - Pinaghahatian, may tubong malalim na balon' or . = '--      Select      --[0] - Iba pa[5] - Balon[10] - Pansariling gamit, gripo, pangkomunidad na sistema ng tubig[7] - Pansariling gamit, may tubong balon o may tubong mababaw na balon[7] - Pinaghahatian, gripo, pangkomunidad na sistema ng tubig[6] - Pinaghahatian, may tubong malalim na balon')]</value>
+      <webElementGuid>69f9aa99-01ce-4efa-8483-803cef3b8ab5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,3 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1'), 
+    '5', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51020'), 
+    '8', true)
+
+WebUI.click(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030'))
+
+WebUI.scrollToElement(findTestObject('Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030'), 0)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      01020'), 
+    '11', true)
+
+WebUI.click(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      0030'), 
+    '14', true)
+
+WebUI.click(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2'), 
+    '17', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2_3'), 
+    '20', true)
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/button_NEXT'))
+

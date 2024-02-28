@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login and Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Client Module/Client Creation/Client Validation'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Client Module/Client Creation/Personal Information'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -28,4 +30,12 @@ WebUI.callTestCase(findTestCase('Client Module/Client Creation/ID Presented'), [
 WebUI.callTestCase(findTestCase('Client Module/Client Creation/DOSRI or RPT'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Client Module/Client Creation/Other Information'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Client Module/Client Creation/CRA'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Client Module/Client Creation/KYC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Client Module/Client Creation/DSPPI'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Client Module/Client Creation/Consent Waiver'), [:], FailureHandling.STOP_ON_FAILURE)
 

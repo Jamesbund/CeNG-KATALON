@@ -23,9 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Card eSystemNextGen/input_Username_txtUsername'), 'rvdelatorre')
+//Getting the Username on the Global Variable
+String UsernameTeller = GlobalVariable.UsernameTeller
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword'), '+occZAnJluP99ZUDpJTytA==')
+WebUI.setText(findTestObject('Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername'), UsernameTeller)
+
+//Getting the Password on the Global Variable
+String PasswordTeller = GlobalVariable.PasswordTeller
+WebUI.setText(findTestObject('Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword'), PasswordTeller)
+
 
 WebUI.click(findTestObject('Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword'))
 

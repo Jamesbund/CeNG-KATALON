@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.setText(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Household Member_txtHouseholdMember'), 
+    '9')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596'), 
+    '1760', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/select_--Select--Below 1,000 pesos1001 - 3,_8e7891'), 
+    '1777', true)
+
+WebUI.setText(findTestObject('Loan Creation/KYC/Page_Core/input_HouseholdMonthly Expense_txtMonthlyExpense'), '5000')
+
+WebUI.setText(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Children in School (input nu_5d3c1c'), 
+    '2')
+
+WebUI.setText(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/input_HighSchool_txtVocational'), '2')
+
+WebUI.setText(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/input_Pre-School_txtCollege'), '1')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Loan Creation/KYC/Page_Core/button_NEXT'))
+

@@ -20,27 +20,10 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.Calendar as Calendar
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login')
+WebUI.mouseOver(findTestObject('Captured Object/Personal Information/Page_Core/span_Client'))
 
-WebUI.maximizeWindow()
-
-String UsernameTeller = GlobalVariable.UsernameTeller
-
-WebUI.setText(findTestObject('Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername'), UsernameTeller)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Password_txtPassword'), 
-    '+occZAnJluM0nv9I0v7U3uaH2ilQtLRo')
-
-WebUI.sendKeys(findTestObject('Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Password_txtPassword'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.verifyElementVisible(findTestObject('Page_Core/h4_Dashboard'))
-
-WebUI.mouseOver(findTestObject('Object Repository/Captured Object/Personal Information/Page_Core/span_Client'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Captured Object/Personal Information/Page_Core/span_Client'))
+WebUI.verifyElementVisible(findTestObject('Captured Object/Personal Information/Page_Core/span_Client'))
 
 WebUI.delay(10)
 
@@ -106,9 +89,9 @@ WebUI.setText(findTestObject('Loan Creation/Page_Core/input_MiddleName_txtMname'
 
 WebUI.setText(findTestObject('Loan Creation/Page_Core/input_LastName_txtLname'), lastName)
 
-WebUI.click(findTestObject('Object Repository/Captured Object/Personal Information/Page_Core/button_SEARCH'))
+WebUI.click(findTestObject('Captured Object/Personal Information/Page_Core/button_SEARCH'))
 
-WebUI.click(findTestObject('Object Repository/Captured Object/Personal Information/Page_Core/button_CREATE'))
+WebUI.click(findTestObject('Captured Object/Personal Information/Page_Core/button_CREATE'))
 
 WebUI.delay(10)
 

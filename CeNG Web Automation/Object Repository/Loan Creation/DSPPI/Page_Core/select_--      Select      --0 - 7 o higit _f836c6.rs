@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--      Select      --0 - 7 o higit _f836c6</name>
+   <tag></tag>
+   <elementGuidId>12cf633f-6a4f-4110-a000-672e507a9026</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbosecondQAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbosecondQAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e7053589-6650-4cab-bbe8-f97e5934f628</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validatelenght required gb-border-fcs form-control Ans</value>
+      <webElementGuid>86b52a7f-9b48-46b0-94f8-c9d9a1af7e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbosecondQAnswer</value>
+      <webElementGuid>85eef6b1-e6ca-483b-88df-7038ecf1e38d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--      Select      --[0] - 7 o higit pa[9] - 5 - 6[18] - 4 pababa</value>
+      <webElementGuid>33d77ce7-24ee-489d-8d80-ea50c6a2b800</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbosecondQAnswer&quot;)</value>
+      <webElementGuid>1ed6f5ac-19a2-4d13-9013-8b6758b42c46</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbosecondQAnswer']</value>
+      <webElementGuid>ac9fe365-babc-4cd6-ad99-90d01050ada5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblPPIBodySecond']/tr/td[2]/select</value>
+      <webElementGuid>82b7c696-4098-48be-b031-1650a1002862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puntos'])[2]/following::select[2]</value>
+      <webElementGuid>d4ce4314-8124-434c-9a57-dec462553cee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mga Indikasyon/Indicators'])[2]/following::select[2]</value>
+      <webElementGuid>c46dad84-e676-4c3c-94b7-7e75987f0866</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Score:'])[1]/preceding::select[10]</value>
+      <webElementGuid>a9d84c34-f49f-433a-afe5-07dd8c107478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[2]/tr/td[2]/select</value>
+      <webElementGuid>6cff4cc0-0f8f-48f6-8d09-db516ee3dd19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbosecondQAnswer' and (text() = '--      Select      --[0] - 7 o higit pa[9] - 5 - 6[18] - 4 pababa' or . = '--      Select      --[0] - 7 o higit pa[9] - 5 - 6[18] - 4 pababa')]</value>
+      <webElementGuid>8ccb6cb1-234d-4bd2-8f60-35d446df0850</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

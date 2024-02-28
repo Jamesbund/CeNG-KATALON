@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--      Select      --0 - Hindi11 - Oo</name>
+   <tag></tag>
+   <elementGuidId>80bd36a4-93d1-47f7-b888-7ada69f46939</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cboninthQAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cboninthQAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>2782c2e8-75f3-428c-bf49-052e53faaefb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validatelenght required gb-border-fcs form-control Ans</value>
+      <webElementGuid>3f8bf997-d6bc-4279-b27c-fc0965ce9da5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cboninthQAnswer</value>
+      <webElementGuid>206cf1ae-113c-4cb9-9cdc-ba2c74153da8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--      Select      --[0] - Hindi[11] - Oo</value>
+      <webElementGuid>75b3f918-7611-48b3-9bf1-a1fffb27aa3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cboninthQAnswer&quot;)</value>
+      <webElementGuid>dec394ff-e336-4e95-8176-1e1656188084</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cboninthQAnswer']</value>
+      <webElementGuid>54dab2d7-859c-462f-8e3b-eef9229155a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblPPIBodyNinth']/tr/td[2]/select</value>
+      <webElementGuid>9878c362-f4a3-4137-98ec-20d2b0bdd4f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puntos'])[2]/following::select[9]</value>
+      <webElementGuid>ce55751b-7441-421c-a161-804b88f970a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mga Indikasyon/Indicators'])[2]/following::select[9]</value>
+      <webElementGuid>d4d5bc2d-ce71-4134-b4cf-61292232d8d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Score:'])[1]/preceding::select[3]</value>
+      <webElementGuid>f88fefbf-ffcf-4e7e-9d5b-c1d13e14adbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[9]/tr/td[2]/select</value>
+      <webElementGuid>c4625a84-0c5c-4d13-b83b-fa281e4cc89f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cboninthQAnswer' and (text() = '--      Select      --[0] - Hindi[11] - Oo' or . = '--      Select      --[0] - Hindi[11] - Oo')]</value>
+      <webElementGuid>fee1059c-f182-4381-b422-6c0bfbd3ceec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
