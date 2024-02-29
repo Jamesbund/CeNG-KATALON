@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select      51015_1_2_3</name>
+   <tag></tag>
+   <elementGuidId>580248aa-e8f6-49b9-8ff2-82753a193fa4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cboseventhRiskAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cboseventhRiskAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1a6e3942-46e4-4ca0-b760-bc3ac9c50832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center gb-border-fcs Ans7</value>
+      <webElementGuid>14f0ddd3-d715-4e83-9b4f-7f8e7d8fa460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cboseventhRiskAnswer</value>
+      <webElementGuid>893fdac8-efe2-4698-b115-67f9f8865207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>     Select      51015</value>
+      <webElementGuid>f0a5b2dd-61db-494d-a91a-1af3896fb431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cboseventhRiskAnswer&quot;)</value>
+      <webElementGuid>8a744dfe-86df-4ffd-ab1c-f6201e328125</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cboseventhRiskAnswer']</value>
+      <webElementGuid>38832c4d-6622-4fe1-9b96-e66dddd32c52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblRiskclassSevBody']/tr/td[9]/select</value>
+      <webElementGuid>505689cc-d66d-4e6e-9871-6d69a43e578b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remittance'])[1]/following::select[1]</value>
+      <webElementGuid>799c1f06-9353-4dfd-a7ef-f2f945808a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other than mentioned in low and high risk'])[1]/following::select[1]</value>
+      <webElementGuid>17fed2c0-4e63-4c2b-9c3a-19cce61930b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL SCORE :'])[1]/preceding::select[1]</value>
+      <webElementGuid>f90c5e3b-2895-451e-842b-4f7d5d39a69f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Classification :'])[1]/preceding::select[1]</value>
+      <webElementGuid>98039733-1016-40d2-ba98-f092ac6938c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[7]/tr/td[9]/select</value>
+      <webElementGuid>e3da5c6c-7714-48cc-834f-fc647c9aaad1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cboseventhRiskAnswer' and (text() = '     Select      51015' or . = '     Select      51015')]</value>
+      <webElementGuid>2ab5766e-76fc-49f7-b895-e2ff21ef93d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

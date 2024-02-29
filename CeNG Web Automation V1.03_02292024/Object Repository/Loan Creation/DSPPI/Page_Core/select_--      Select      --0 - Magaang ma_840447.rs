@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--      Select      --0 - Magaang ma_840447</name>
+   <tag></tag>
+   <elementGuidId>da296142-b242-49d9-821d-4917939661d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cbofifthQAnswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cbofifthQAnswer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>70908e58-ab47-4ce2-8f6e-d6f437f3a2f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validatelenght required gb-border-fcs form-control Ans</value>
+      <webElementGuid>572b8832-60aa-4906-b109-bcd3e5f21a2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cbofifthQAnswer</value>
+      <webElementGuid>0745c87b-e72e-4691-8235-ce17228a5522</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--      Select      --[0] - Magaang materyales (kawayan, sawali,cogon, nipa, anahaw), Isinalba/ pansamantalang materyales, Magkahalo ngunit mas marami ang magagaang materyales, Magkahalo ngunit mas maraming isinalbang materyales[7] - Magkahalo ngunit mas maraming matitibay na materyales[8] - Matitibay na materyales (yero, aluminum, tile, semento, brick, bato, kahoy, plywood, asbestos)</value>
+      <webElementGuid>28b15fea-0ca6-4239-a053-2dceff7ecf4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cbofifthQAnswer&quot;)</value>
+      <webElementGuid>284fb148-532c-45be-b06b-47d38317b95d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cbofifthQAnswer']</value>
+      <webElementGuid>d7fbe383-bc85-4faa-b5b2-f1ad48ebbf6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tblPPIBodyFifth']/tr/td[2]/select</value>
+      <webElementGuid>557213eb-3b2d-4406-8dcd-5324721d8986</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puntos'])[2]/following::select[5]</value>
+      <webElementGuid>28655aa3-6cd0-49d5-9929-dfcad2a21e7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mga Indikasyon/Indicators'])[2]/following::select[5]</value>
+      <webElementGuid>e11270a8-d56b-442f-94e2-31c9b7a7d25e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Score:'])[1]/preceding::select[7]</value>
+      <webElementGuid>7d8dca68-9eb0-4b0a-b7d4-6f0bb39736ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[5]/tr/td[2]/select</value>
+      <webElementGuid>cc11142a-62e3-4898-8457-b25b970e2f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cbofifthQAnswer' and (text() = '--      Select      --[0] - Magaang materyales (kawayan, sawali,cogon, nipa, anahaw), Isinalba/ pansamantalang materyales, Magkahalo ngunit mas marami ang magagaang materyales, Magkahalo ngunit mas maraming isinalbang materyales[7] - Magkahalo ngunit mas maraming matitibay na materyales[8] - Matitibay na materyales (yero, aluminum, tile, semento, brick, bato, kahoy, plywood, asbestos)' or . = '--      Select      --[0] - Magaang materyales (kawayan, sawali,cogon, nipa, anahaw), Isinalba/ pansamantalang materyales, Magkahalo ngunit mas marami ang magagaang materyales, Magkahalo ngunit mas maraming isinalbang materyales[7] - Magkahalo ngunit mas maraming matitibay na materyales[8] - Matitibay na materyales (yero, aluminum, tile, semento, brick, bato, kahoy, plywood, asbestos)')]</value>
+      <webElementGuid>f6facedd-42c9-44ae-b152-bdc8d0fa7252</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

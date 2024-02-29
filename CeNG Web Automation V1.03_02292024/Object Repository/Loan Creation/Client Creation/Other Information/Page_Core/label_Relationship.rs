@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Relationship</name>
+   <tag></tag>
+   <elementGuidId>72aa3cf5-c2c8-429d-8e3e-cb7c38c36ffb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.offset-sm-1.card-title.col-form-label.font-11</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='5']/div/div/div[4]/div[3]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>afc84df9-f538-4b96-b2a2-272561760ce0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>offset-sm-1 card-title col-form-label font-11</value>
+      <webElementGuid>ab30ed80-88fc-445b-8859-1b5bb6fb395c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Relationship:
+															</value>
+      <webElementGuid>84b0d55b-6b79-4fdf-9a35-d70f06ae2808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;5&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-1&quot;]/label[@class=&quot;offset-sm-1 card-title col-form-label font-11&quot;]</value>
+      <webElementGuid>2dcb2c7b-ecd8-42f0-b341-1d333d419dd3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='5']/div/div/div[4]/div[3]/label</value>
+      <webElementGuid>ddcc98a7-a107-4c39-99d1-8f92ea017cc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthday:'])[1]/following::label[1]</value>
+      <webElementGuid>c155b058-3629-43d1-b43c-3e1a2f18b6aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[2]/following::label[2]</value>
+      <webElementGuid>fd892229-aee6-4642-a44e-27ad8a646a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/preceding::label[1]</value>
+      <webElementGuid>6acd0702-5f2b-405b-86e4-52eaf95b30df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Relationship:']/parent::*</value>
+      <webElementGuid>00f4e039-1c8d-4f32-8d6f-6896b93c3a54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/label</value>
+      <webElementGuid>b0fdd5ea-68ea-44e7-8a1e-32b99fbc061f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Relationship:
+															' or . = 'Relationship:
+															')]</value>
+      <webElementGuid>a63f59ed-6384-45d8-9b17-e7ea2075d85e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
