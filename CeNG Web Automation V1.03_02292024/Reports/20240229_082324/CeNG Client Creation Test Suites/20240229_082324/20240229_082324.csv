@@ -1,0 +1,291 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CeNG Client Creation Test Suites,Chrome 122.0.0.0,Test Suites for Client Creation,,2024-02-29 08:23:38,2024-02-29 08:33:20,9m - 42.568s,PASSED
+,,,,,,,
+Test Cases/Login and Logout/Login,Chrome 122.0.0.0,,,2024-02-29 08:23:38,2024-02-29 08:24:04,25.388s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,2024-02-29 08:23:38,2024-02-29 08:23:43,4.386s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,2024-02-29 08:23:43,2024-02-29 08:23:43,0.225s,PASSED
+"navigateToUrl(""http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login"")",Chrome 122.0.0.0,,,2024-02-29 08:23:43,2024-02-29 08:23:44,1.209s,PASSED
+UsernameTeller = UsernameTeller,Chrome 122.0.0.0,,,2024-02-29 08:23:44,2024-02-29 08:23:45,0.496s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername""), UsernameTeller)",Chrome 122.0.0.0,,,2024-02-29 08:23:45,2024-02-29 08:23:46,1.132s,PASSED
+PasswordTeller = PasswordTeller,Chrome 122.0.0.0,,,2024-02-29 08:23:46,2024-02-29 08:23:46,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword""), PasswordTeller)",Chrome 122.0.0.0,,,2024-02-29 08:23:46,2024-02-29 08:23:47,0.997s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword""))",Chrome 122.0.0.0,,,2024-02-29 08:23:47,2024-02-29 08:23:48,0.580s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/button_Login""))",Chrome 122.0.0.0,,,2024-02-29 08:23:48,2024-02-29 08:23:48,0.548s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Core/h4_Dashboard""))",Chrome 122.0.0.0,,,2024-02-29 08:23:48,2024-02-29 08:24:04,15.458s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Client Validation,Chrome 122.0.0.0,,,2024-02-29 08:24:04,2024-02-29 08:25:21,1m - 17.374s,PASSED
+"mouseOver(findTestObject(""Captured Object/Personal Information/Page_Core/span_Client""))",Chrome 122.0.0.0,,,2024-02-29 08:24:04,2024-02-29 08:24:05,0.751s,PASSED
+"verifyElementVisible(findTestObject(""Captured Object/Personal Information/Page_Core/span_Client""))",Chrome 122.0.0.0,,,2024-02-29 08:24:05,2024-02-29 08:24:06,0.607s,PASSED
+delay(10),Chrome 122.0.0.0,,,2024-02-29 08:24:06,2024-02-29 08:24:16,10.061s,PASSED
+"click(findTestObject(""Captured Object/Page_Core/span_Client""))",Chrome 122.0.0.0,,,2024-02-29 08:24:16,2024-02-29 08:24:16,0.552s,PASSED
+delay(3),Chrome 122.0.0.0,,,2024-02-29 08:24:16,2024-02-29 08:24:19,3.009s,PASSED
+"click(findTestObject(""Loan Creation/Client Creation/Page_Core/a_ClientCreation""))",Chrome 122.0.0.0,,,2024-02-29 08:24:19,2024-02-29 08:24:20,0.557s,PASSED
+"click(findTestObject(""Loan Creation/Client Creation/Page_Core/a_ClientCreation""))",Chrome 122.0.0.0,,,2024-02-29 08:24:20,2024-02-29 08:24:20,0.315s,PASSED
+"click(findTestObject(""Loan Creation/Client Creation/Page_Core/a_ClientCreation""))",Chrome 122.0.0.0,,,2024-02-29 08:24:20,2024-02-29 08:24:20,0.297s,PASSED
+acceptAlert(),Chrome 122.0.0.0,,,2024-02-29 08:24:20,2024-02-29 08:24:20,0.059s,PASSED
+"setText(findTestObject(""Loan Creation/Page_Core/input_FirstName_txtFname""), ""First Name 1"")",Chrome 122.0.0.0,,,2024-02-29 08:24:20,2024-02-29 08:24:24,3.298s,PASSED
+"setText(findTestObject(""Loan Creation/Page_Core/input_LastName_txtLname""), ""Last Name 2"")",Chrome 122.0.0.0,,,2024-02-29 08:24:24,2024-02-29 08:24:25,1.515s,PASSED
+"setText(findTestObject(""Loan Creation/Page_Core/input_MiddleName_txtMname""), ""Middle Name 1"")",Chrome 122.0.0.0,,,2024-02-29 08:24:25,2024-02-29 08:24:26,1.030s,PASSED
+"verifyElementText(findTestObject(""Loan Creation/Client Creation/Page_Core/input_Birthday_txtdoBirth""), """")",Chrome 122.0.0.0,,,2024-02-29 08:24:26,2024-02-29 08:24:27,0.507s,PASSED
+currentDate = new java.util.Date(),Chrome 122.0.0.0,,,2024-02-29 08:24:27,2024-02-29 08:24:27,0.001s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM-dd-yyyy),Chrome 122.0.0.0,,,2024-02-29 08:24:27,2024-02-29 08:24:27,0.027s,PASSED
+formattedDate = dateFormat.format(currentDate),Chrome 122.0.0.0,,,2024-02-29 08:24:27,2024-02-29 08:24:27,0.004s,PASSED
+"println(""Current System Date: "" + formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:24:27,2024-02-29 08:24:27,0.006s,PASSED
+"setText(findTestObject(""Captured Object/Personal Information/Page_Core/input_Birthday_txtdoBirth""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:24:27,2024-02-29 08:24:28,1.368s,PASSED
+"click(findTestObject(""Captured Object/Personal Information/Page_Core/button_SEARCH""))",Chrome 122.0.0.0,,,2024-02-29 08:24:28,2024-02-29 08:24:31,2.845s,PASSED
+"clearText(findTestObject(""Loan Creation/Page_Core/input_FirstName_txtFname""))",Chrome 122.0.0.0,,,2024-02-29 08:24:31,2024-02-29 08:24:32,0.664s,PASSED
+delay(5),Chrome 122.0.0.0,,,2024-02-29 08:24:32,2024-02-29 08:24:37,5.016s,PASSED
+"click(findTestObject(""Captured Object/Personal Information/Page_Core/button_OK""))",Chrome 122.0.0.0,,,2024-02-29 08:24:37,2024-02-29 08:24:37,0.534s,PASSED
+"clearText(findTestObject(""Loan Creation/Page_Core/input_MiddleName_txtMname""))",Chrome 122.0.0.0,,,2024-02-29 08:24:37,2024-02-29 08:24:38,0.658s,PASSED
+"clearText(findTestObject(""Loan Creation/Page_Core/input_LastName_txtLname""))",Chrome 122.0.0.0,,,2024-02-29 08:24:38,2024-02-29 08:24:39,0.935s,PASSED
+delay(5),Chrome 122.0.0.0,,,2024-02-29 08:24:39,2024-02-29 08:24:44,5.004s,PASSED
+firstName = ClientFirstName,Chrome 122.0.0.0,,,2024-02-29 08:24:44,2024-02-29 08:24:44,0.001s,PASSED
+middleName = ClientMiddleName,Chrome 122.0.0.0,,,2024-02-29 08:24:44,2024-02-29 08:24:44,0.000s,PASSED
+lastName = ClientLastName,Chrome 122.0.0.0,,,2024-02-29 08:24:44,2024-02-29 08:24:44,0.001s,PASSED
+"setText(findTestObject(""Loan Creation/Page_Core/input_FirstName_txtFname""), firstName)",Chrome 122.0.0.0,,,2024-02-29 08:24:44,2024-02-29 08:24:45,1.068s,PASSED
+"setText(findTestObject(""Loan Creation/Page_Core/input_MiddleName_txtMname""), middleName)",Chrome 122.0.0.0,,,2024-02-29 08:24:45,2024-02-29 08:24:46,1.043s,PASSED
+"setText(findTestObject(""Loan Creation/Page_Core/input_LastName_txtLname""), lastName)",Chrome 122.0.0.0,,,2024-02-29 08:24:46,2024-02-29 08:24:48,1.498s,PASSED
+"click(findTestObject(""Captured Object/Personal Information/Page_Core/button_SEARCH""))",Chrome 122.0.0.0,,,2024-02-29 08:24:48,2024-02-29 08:24:48,0.625s,PASSED
+"click(findTestObject(""Captured Object/Personal Information/Page_Core/button_CREATE""))",Chrome 122.0.0.0,,,2024-02-29 08:24:48,2024-02-29 08:24:55,6.780s,PASSED
+delay(10),Chrome 122.0.0.0,,,2024-02-29 08:24:55,2024-02-29 08:25:05,10.003s,PASSED
+"verifyElementPresent(findTestObject(""Captured Object/Personal Information/h4_Personal Information""), 0)",Chrome 122.0.0.0,,,2024-02-29 08:25:05,2024-02-29 08:25:05,0.469s,PASSED
+"scrollToElement(findTestObject(""Captured Object/Personal Information/h4_Personal Information""), 0)",Chrome 122.0.0.0,,,2024-02-29 08:25:05,2024-02-29 08:25:06,0.490s,PASSED
+delay(15),Chrome 122.0.0.0,,,2024-02-29 08:25:06,2024-02-29 08:25:21,15.011s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Personal Information,Chrome 122.0.0.0,,,2024-02-29 08:25:21,2024-02-29 08:26:51,1m - 30.392s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_with Disability_withdisability""))",Chrome 122.0.0.0,,,2024-02-29 08:25:22,2024-02-29 08:25:22,0.587s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_YES_withdisability""))",Chrome 122.0.0.0,,,2024-02-29 08:25:22,2024-02-29 08:25:23,1.024s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--NewTransferred""), ""1820"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:23,2024-02-29 08:25:25,1.974s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --4Ps BeneficiaryArtistChi_05c006""), ""1787"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:25,2024-02-29 08:25:28,2.334s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_-- Select --Atty.Dr.Eng.Hon.MrMrsMs""), ""155"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:28,2024-02-29 08:25:29,1.845s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0""), ""76"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:29,2024-02-29 08:25:32,2.131s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BisexualGayLesbianQueerTra_c208c0""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:32,2024-02-29 08:25:34,2.070s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--Select--AnnulledLive-inMarriedSepa_54a068""), ""162"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:34,2024-02-29 08:25:35,1.846s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_FirstName_txtmothersMaidenFName""), ""Hayley"")",Chrome 122.0.0.0,,,2024-02-29 08:25:35,2024-02-29 08:25:37,1.313s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName""), ""N"")",Chrome 122.0.0.0,,,2024-02-29 08:25:37,2024-02-29 08:25:38,1.579s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName""), """")",Chrome 122.0.0.0,,,2024-02-29 08:25:38,2024-02-29 08:25:40,1.363s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/div_Please ensure that the middle name cont_98c59e""))",Chrome 122.0.0.0,,,2024-02-29 08:25:40,2024-02-29 08:25:40,0.586s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_MiddleName_txtmothersMaidenMName""), ""Nicole"")",Chrome 122.0.0.0,,,2024-02-29 08:25:40,2024-02-29 08:25:42,2.063s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_LastName_txtmothersMaidenLName""), ""Williams"")",Chrome 122.0.0.0,,,2024-02-29 08:25:42,2024-02-29 08:25:44,1.434s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:44,2024-02-29 08:25:45,1.578s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:45,2024-02-29 08:25:47,2.030s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a""), ""422"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:47,2024-02-29 08:25:50,2.272s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--AglipayanBorn AgainEvangel_87720a""), ""422"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:50,2024-02-29 08:25:51,1.814s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c""), ""197"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:51,2024-02-29 08:25:54,2.161s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--No Formal EducationElement_aa261c""), ""197"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:54,2024-02-29 08:25:56,1.929s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64""), ""441"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:56,2024-02-29 08:25:58,1.919s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64""), ""441"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:58,2024-02-29 08:25:59,1.826s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9""), ""699"", true)",Chrome 122.0.0.0,,,2024-02-29 08:25:59,2024-02-29 08:26:02,2.177s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--Accommodation and Food Ser_e45bf9""), ""699"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:02,2024-02-29 08:26:04,2.596s,PASSED
+currentDate = new java.util.Date(),Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.000s,PASSED
+calendar = Calendar.getInstance(),Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.014s,PASSED
+calendar.setTime(currentDate),Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.019s,PASSED
+"calendar.add(YEAR, -20)",Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.003s,PASSED
+dateTwentyYearsBack = calendar.getTime(),Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.001s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.001s,PASSED
+formattedDate = dateFormat.format(dateTwentyYearsBack),Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:04,0.001s,PASSED
+"setText(findTestObject(""Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:26:04,2024-02-29 08:26:05,1.288s,PASSED
+"sendKeys(findTestObject(""Captured Object/Personal Information/Page_Core/Page_Core/input_Birthday_txtbday""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:26:05,2024-02-29 08:26:06,0.980s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376""), ""10488"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:06,2024-02-29 08:26:12,5.841s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --Abra - CAR (Co_3be376""), ""10488"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:12,2024-02-29 08:26:18,5.978s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f""), ""10571"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:18,2024-02-29 08:26:22,3.909s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f""), ""10571"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:22,2024-02-29 08:26:25,2.879s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_0.00""), ""09091231231"")",Chrome 122.0.0.0,,,2024-02-29 08:26:25,2024-02-29 08:26:26,1.124s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber""), ""(12) 312-3123"")",Chrome 122.0.0.0,,,2024-02-29 08:26:26,2024-02-29 08:26:27,1.001s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_TelephoneNumber_txtTelephoneNumber""))",Chrome 122.0.0.0,,,2024-02-29 08:26:27,2024-02-29 08:26:28,0.536s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_EmailAddress_txtEmailAddress""), ""anitamaxwynn@sample.com"")",Chrome 122.0.0.0,,,2024-02-29 08:26:28,2024-02-29 08:26:29,1.520s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID""), ""123-123-123-12321"")",Chrome 122.0.0.0,,,2024-02-29 08:26:29,2024-02-29 08:26:30,1.021s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_TIN_txtTinID""))",Chrome 122.0.0.0,,,2024-02-29 08:26:30,2024-02-29 08:26:31,0.548s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo""), ""12-3123123-1"")",Chrome 122.0.0.0,,,2024-02-29 08:26:31,2024-02-29 08:26:32,1.370s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_SSSNo_txtSSSNo""))",Chrome 122.0.0.0,,,2024-02-29 08:26:32,2024-02-29 08:26:33,0.541s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_PhilhealthNo_txtPhilhealth""), ""12-3123123-123"")",Chrome 122.0.0.0,,,2024-02-29 08:26:33,2024-02-29 08:26:34,1.103s,PASSED
+"setText(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_Pag-IBIGNo_txtPagIbig""), ""1231-2312-3123"")",Chrome 122.0.0.0,,,2024-02-29 08:26:34,2024-02-29 08:26:35,1.348s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:35,2024-02-29 08:26:37,1.855s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:37,2024-02-29 08:26:39,1.928s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5""), ""97"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:39,2024-02-29 08:26:41,2.405s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--Select--PAETE (REGULAR)Sampalok 1P_2adbb5""), ""97"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:41,2024-02-29 08:26:43,1.735s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106""), ""708"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:43,2024-02-29 08:26:46,2.817s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/select_--      Select      --BAGONG POOK (S_ac7106""), ""708"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:46,2024-02-29 08:26:49,2.912s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_YES_CARDScholar""))",Chrome 122.0.0.0,,,2024-02-29 08:26:49,2024-02-29 08:26:49,0.564s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_YES_FormerEmployee""))",Chrome 122.0.0.0,,,2024-02-29 08:26:49,2024-02-29 08:26:50,0.545s,PASSED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:26:50,2024-02-29 08:26:51,1.417s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Address,Chrome 122.0.0.0,,,2024-02-29 08:26:51,2024-02-29 08:27:22,30.346s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --Abra - CAR (Co_3be376""), ""10488"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:52,2024-02-29 08:26:58,6.272s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f""), ""10571"", true)",Chrome 122.0.0.0,,,2024-02-29 08:26:58,2024-02-29 08:27:02,3.915s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --AlaminosBayBia_8f7d3f""), ""10571"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:02,2024-02-29 08:27:05,3.311s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_PostalCode_txtCusAddZipCode""), """")",Chrome 122.0.0.0,,,2024-02-29 08:27:05,2024-02-29 08:27:06,0.475s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_AtisanBagong Bayan Ii-A (Pob.)Bagong_361eda""), ""13059"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:06,2024-02-29 08:27:11,5.041s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_HouseNo.BldgStreetSubdivision_txthous_59daa2""), ""777. Purok 12, Limawasa Street"")",Chrome 122.0.0.0,,,2024-02-29 08:27:11,2024-02-29 08:27:12,1.133s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/input_Same with the Present AddressPhysical_c9b861""))",Chrome 122.0.0.0,,,2024-02-29 08:27:12,2024-02-29 08:27:13,0.553s,PASSED
+delay(8),Chrome 122.0.0.0,,,2024-02-29 08:27:13,2024-02-29 08:27:21,8.011s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:27:21,2024-02-29 08:27:22,1.016s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/ID Presented,Chrome 122.0.0.0,,,2024-02-29 08:27:22,2024-02-29 08:27:33,11.152s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0""), ""738"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:22,2024-02-29 08:27:25,2.407s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_IDNumber_txtIdNumber""), ""123123123"")",Chrome 122.0.0.0,,,2024-02-29 08:27:25,2024-02-29 08:27:26,1.712s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue""), ""San Pablo City"")",Chrome 122.0.0.0,,,2024-02-29 08:27:26,2024-02-29 08:27:28,1.330s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/i_ExpirationDate_icon""))",Chrome 122.0.0.0,,,2024-02-29 08:27:28,2024-02-29 08:27:28,0.555s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0_1""), ""727"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:28,2024-02-29 08:27:31,2.435s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/input_Placeof Issue_txtPlaceOfIssue2""), ""San Pablo City 02"")",Chrome 122.0.0.0,,,2024-02-29 08:27:31,2024-02-29 08:27:32,1.025s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:27:32,2024-02-29 08:27:33,1.059s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/DOSRI or RPT,Chrome 122.0.0.0,,,2024-02-29 08:27:33,2024-02-29 08:29:20,1m - 46.979s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_DOSRI_dosri""))",Chrome 122.0.0.0,,,2024-02-29 08:27:33,2024-02-29 08:27:35,1.062s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri""))",Chrome 122.0.0.0,,,2024-02-29 08:27:35,2024-02-29 08:27:35,0.895s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_YES_dosri""))",Chrome 122.0.0.0,,,2024-02-29 08:27:35,2024-02-29 08:27:37,1.238s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_NONE_dosri""))",Chrome 122.0.0.0,,,2024-02-29 08:27:37,2024-02-29 08:27:38,0.876s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2""), ""765"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:38,2024-02-29 08:27:40,2.374s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff""), ""Trafalgar Law"")",Chrome 122.0.0.0,,,2024-02-29 08:27:40,2024-02-29 08:27:41,1.031s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:41,2024-02-29 08:27:58,17.473s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08""), ""3675"", true)",Chrome 122.0.0.0,,,2024-02-29 08:27:58,2024-02-29 08:28:16,18.041s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb""), ""2693"", true)",Chrome 122.0.0.0,,,2024-02-29 08:28:16,2024-02-29 08:28:19,2.954s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_-- Select --CARD MRI MemberCARD MRI _8bd785""), ""1807"", true)",Chrome 122.0.0.0,,,2024-02-29 08:28:19,2024-02-29 08:28:21,1.837s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Referredby_txtReferredbyOtherPrimary""), ""Bepo the Bear"")",Chrome 122.0.0.0,,,2024-02-29 08:28:21,2024-02-29 08:28:22,1.002s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Referredby_relationshipIcon""))",Chrome 122.0.0.0,,,2024-02-29 08:28:22,2024-02-29 08:28:23,0.572s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_None_drone2""))",Chrome 122.0.0.0,,,2024-02-29 08:28:23,2024-02-29 08:28:24,0.953s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1""), ""763"", true)",Chrome 122.0.0.0,,,2024-02-29 08:28:24,2024-02-29 08:28:26,2.229s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Nameof Staff_txtNameofStaff2""), ""Eustass Kidd"")",Chrome 122.0.0.0,,,2024-02-29 08:28:26,2024-02-29 08:28:27,1.080s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:28:27,2024-02-29 08:28:45,17.457s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--Account AnalystAccounting _ce5c08_1""), ""3669"", true)",Chrome 122.0.0.0,,,2024-02-29 08:28:45,2024-02-29 08:29:02,17.357s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--CARD Bank, Inc.CARD SME Ba_7bc8fb_1""), ""2696"", true)",Chrome 122.0.0.0,,,2024-02-29 08:29:02,2024-02-29 08:29:04,2.400s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID""), ""10000123"")",Chrome 122.0.0.0,,,2024-02-29 08:29:04,2024-02-29 08:29:05,1.116s,PASSED
+"sendKeys(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_CID_txtPrimaryImmediateFamCID""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:29:05,2024-02-29 08:29:06,0.942s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985""), ""3660"", true)",Chrome 122.0.0.0,,,2024-02-29 08:29:06,2024-02-29 08:29:08,1.882s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1""))",Chrome 122.0.0.0,,,2024-02-29 08:29:08,2024-02-29 08:29:10,1.274s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2""), ""10000150"")",Chrome 122.0.0.0,,,2024-02-29 08:29:10,2024-02-29 08:29:11,1.119s,PASSED
+"sendKeys(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID2""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:29:11,2024-02-29 08:29:12,0.894s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1""), ""3664"", true)",Chrome 122.0.0.0,,,2024-02-29 08:29:12,2024-02-29 08:29:13,1.907s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/i_Center_btnrow1""))",Chrome 122.0.0.0,,,2024-02-29 08:29:13,2024-02-29 08:29:15,1.192s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3""), ""10000145"")",Chrome 122.0.0.0,,,2024-02-29 08:29:15,2024-02-29 08:29:16,1.112s,PASSED
+"sendKeys(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_Center_txtImmediateFamCID3""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:29:16,2024-02-29 08:29:17,0.939s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/select_--Select--BrotherDaughterFatherMothe_ec9985_1_2""), ""3659"", true)",Chrome 122.0.0.0,,,2024-02-29 08:29:17,2024-02-29 08:29:19,1.842s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:29:19,2024-02-29 08:29:20,1.295s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Other Information,Chrome 122.0.0.0,,,2024-02-29 08:29:20,2024-02-29 08:31:30,2m - 9.884s,PASSED
+"click(findTestObject(""Captured Object/Other Information/Page_Core/input_CARD Member_drone3""))",Chrome 122.0.0.0,,,2024-02-29 08:29:21,2024-02-29 08:29:22,0.977s,PASSED
+"click(findTestObject(""Captured Object/Other Information/Page_Core/input_YES_drone3""))",Chrome 122.0.0.0,,,2024-02-29 08:29:22,2024-02-29 08:29:23,0.957s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_FirstName_txtSpousefname""), ""Natasha"")",Chrome 122.0.0.0,,,2024-02-29 08:29:23,2024-02-29 08:29:25,2.101s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname""))",Chrome 122.0.0.0,,,2024-02-29 08:29:25,2024-02-29 08:29:26,0.941s,PASSED
+"doubleClick(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname""))",Chrome 122.0.0.0,,,2024-02-29 08:29:26,2024-02-29 08:29:27,1.047s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_MiddleName_txtSpousemname""), ""The"")",Chrome 122.0.0.0,,,2024-02-29 08:29:27,2024-02-29 08:29:28,1.297s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_LastName_txtSpouselname""), ""Romanoff"")",Chrome 122.0.0.0,,,2024-02-29 08:29:28,2024-02-29 08:29:29,1.162s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale""), ""74"", true)",Chrome 122.0.0.0,,,2024-02-29 08:29:29,2024-02-29 08:29:31,1.554s,PASSED
+currentDate = new java.util.Date(),Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.000s,PASSED
+calendar = Calendar.getInstance(),Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.001s,PASSED
+calendar.setTime(currentDate),Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.001s,PASSED
+"calendar.add(YEAR, -20)",Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.000s,PASSED
+dateTwentyYearsBack = calendar.getTime(),Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.000s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.002s,PASSED
+formattedDate = dateFormat.format(dateTwentyYearsBack),Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:31,0.000s,PASSED
+"setText(findTestObject(""Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:29:31,2024-02-29 08:29:32,1.400s,PASSED
+"sendKeys(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Dateof Marriage_txtSpouseDateOfMarraige""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:29:32,2024-02-29 08:29:33,0.547s,PASSED
+"setText(findTestObject(""Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:29:33,2024-02-29 08:29:34,1.530s,PASSED
+"sendKeys(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Birthday_txtSpousebday""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:29:34,2024-02-29 08:29:35,0.622s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--Aborlan - PalawanAbra De I_52077c""), ""3560"", true)",Chrome 122.0.0.0,,,2024-02-29 08:29:35,2024-02-29 08:30:24,49.372s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BusinessGovernment Employe_69ab64""), ""491"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:24,2024-02-29 08:30:26,1.711s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596""), ""1759"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:26,2024-02-29 08:30:28,2.136s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_SourceOf Income_txtCompanyname""), ""CMIT"")",Chrome 122.0.0.0,,,2024-02-29 08:30:28,2024-02-29 08:30:29,1.254s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:29,2024-02-29 08:30:31,1.889s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c""), ""197"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:31,2024-02-29 08:30:33,2.077s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber""), ""09091231231"")",Chrome 122.0.0.0,,,2024-02-29 08:30:33,2024-02-29 08:30:34,1.141s,PASSED
+"sendKeys(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_CellphoneNumber_txtSpouseCpNmber""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,2024-02-29 08:30:34,2024-02-29 08:30:35,0.514s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName1""), ""Bruce Banner"")",Chrome 122.0.0.0,,,2024-02-29 08:30:35,2024-02-29 08:30:36,1.486s,PASSED
+"setText(findTestObject(""Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday1""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:30:36,2024-02-29 08:30:37,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2""), ""763"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:37,2024-02-29 08:30:39,1.930s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1""), ""75"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:39,2024-02-29 08:30:41,1.693s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1""), ""203"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:41,2024-02-29 08:30:43,2.128s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_withDisability If Yes, specify the kind_30fc26""))",Chrome 122.0.0.0,,,2024-02-29 08:30:43,2024-02-29 08:30:44,0.732s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:44,2024-02-29 08:30:45,1.671s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:45,2024-02-29 08:30:47,1.967s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea""), ""1803"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:47,2024-02-29 08:30:49,1.976s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1""))",Chrome 122.0.0.0,,,2024-02-29 08:30:49,2024-02-29 08:30:50,1.049s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName2""), ""Peter Parker"")",Chrome 122.0.0.0,,,2024-02-29 08:30:50,2024-02-29 08:30:52,1.160s,PASSED
+"setText(findTestObject(""Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday2""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:30:52,2024-02-29 08:30:53,1.046s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1""), ""758"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:53,2024-02-29 08:30:55,2.124s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2""), ""75"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:55,2024-02-29 08:30:57,1.853s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2""), ""203"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:57,2024-02-29 08:30:59,1.922s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/div_Additional Beneficiary If any""))",Chrome 122.0.0.0,,,2024-02-29 08:30:59,2024-02-29 08:30:59,0.588s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2""), ""180"", true)",Chrome 122.0.0.0,,,2024-02-29 08:30:59,2024-02-29 08:31:01,1.754s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary""), ""1800"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:01,2024-02-29 08:31:03,1.813s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2""), ""1"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:03,2024-02-29 08:31:04,1.535s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtDisability2""), ""ADHD"")",Chrome 122.0.0.0,,,2024-02-29 08:31:04,2024-02-29 08:31:06,1.406s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3""), ""1"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:06,2024-02-29 08:31:07,1.579s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1""), ""1803"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:07,2024-02-29 08:31:09,1.990s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/i_Remarks_beneRow1""))",Chrome 122.0.0.0,,,2024-02-29 08:31:09,2024-02-29 08:31:11,1.385s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3""))",Chrome 122.0.0.0,,,2024-02-29 08:31:11,2024-02-29 08:31:11,0.588s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/input_Remarks_txtBeneficiaryName3""), ""Wanda Vision"")",Chrome 122.0.0.0,,,2024-02-29 08:31:11,2024-02-29 08:31:12,1.060s,PASSED
+"setText(findTestObject(""Captured Object/Other Information/Page_Core/input_Remarks_txtBeneficiaryBday3""), formattedDate)",Chrome 122.0.0.0,,,2024-02-29 08:31:12,2024-02-29 08:31:14,1.468s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/label_Relationship""))",Chrome 122.0.0.0,,,2024-02-29 08:31:14,2024-02-29 08:31:14,0.495s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BrotherBrother-in-LawCousi_e1fca2_1_2""), ""766"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:14,2024-02-29 08:31:17,2.414s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--FemaleMale_1_2_3""), ""75"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:17,2024-02-29 08:31:18,1.685s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--No Formal EducationElement_aa261c_1_2_3""), ""199"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:18,2024-02-29 08:31:21,2.228s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--NAPrimarySecondary_1""), ""1801"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:21,2024-02-29 08:31:22,1.854s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:22,2024-02-29 08:31:24,1.964s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--YESNO_1_2_3_4_5""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:24,2024-02-29 08:31:26,2.066s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/select_--Select--BeneficiaryLegal Dependent_a71cea_1_2""), ""1804"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:26,2024-02-29 08:31:28,1.948s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/Other Information/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:31:28,2024-02-29 08:31:30,1.331s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/CRA,Chrome 122.0.0.0,Client Risk Assessment,,2024-02-29 08:31:30,2024-02-29 08:32:00,30.066s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015""), ""2"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:30,2024-02-29 08:31:32,2.127s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1""), ""5"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:32,2024-02-29 08:31:35,2.414s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51020""), ""8"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:35,2024-02-29 08:31:37,1.598s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030""))",Chrome 122.0.0.0,,,2024-02-29 08:31:37,2024-02-29 08:31:37,0.987s,PASSED
+"scrollToElement(findTestObject(""Loan Creation/Client Creation/CRA/Page_Core/td_Select      0030""), 0)",Chrome 122.0.0.0,,,2024-02-29 08:31:37,2024-02-29 08:31:38,0.925s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      01020""), ""11"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:38,2024-02-29 08:31:41,2.125s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015""))",Chrome 122.0.0.0,,,2024-02-29 08:31:41,2024-02-29 08:31:42,0.960s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      0030""), ""14"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:42,2024-02-29 08:31:44,2.045s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/td_Select      51015""))",Chrome 122.0.0.0,,,2024-02-29 08:31:44,2024-02-29 08:31:45,0.950s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2""), ""17"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:45,2024-02-29 08:31:47,2.107s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015_1_2_3""), ""20"", true)",Chrome 122.0.0.0,,,2024-02-29 08:31:47,2024-02-29 08:31:49,2.012s,PASSED
+delay(8),Chrome 122.0.0.0,,,2024-02-29 08:31:49,2024-02-29 08:31:57,8.009s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:31:57,2024-02-29 08:32:00,3.182s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/KYC,Chrome 122.0.0.0,Know Your Client,,2024-02-29 08:32:00,2024-02-29 08:32:19,19.551s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Household Member_txtHouseholdMember""), ""9"")",Chrome 122.0.0.0,,,2024-02-29 08:32:00,2024-02-29 08:32:02,1.275s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:02,2024-02-29 08:32:04,2.617s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/select_--Select--EmploymentSalariesIncome f_b99596""), ""1760"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:04,2024-02-29 08:32:06,1.956s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/select_--Select--Below 1,000 pesos1001 - 3,_8e7891""), ""1777"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:06,2024-02-29 08:32:09,2.722s,PASSED
+"setText(findTestObject(""Loan Creation/KYC/Page_Core/input_HouseholdMonthly Expense_txtMonthlyExpense""), ""5000"")",Chrome 122.0.0.0,,,2024-02-29 08:32:09,2024-02-29 08:32:10,1.096s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Children in School (input nu_5d3c1c""), ""2"")",Chrome 122.0.0.0,,,2024-02-29 08:32:10,2024-02-29 08:32:11,1.076s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/input_HighSchool_txtVocational""), ""2"")",Chrome 122.0.0.0,,,2024-02-29 08:32:11,2024-02-29 08:32:12,0.983s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/input_Pre-School_txtCollege""), ""1"")",Chrome 122.0.0.0,,,2024-02-29 08:32:12,2024-02-29 08:32:13,0.969s,PASSED
+delay(5),Chrome 122.0.0.0,,,2024-02-29 08:32:13,2024-02-29 08:32:18,5.006s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:32:18,2024-02-29 08:32:19,1.257s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/DSPPI,Chrome 122.0.0.0,Demographic Survey/Poverty Probability Index,,2024-02-29 08:32:19,2024-02-29 08:33:15,55.483s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - ARMM8 - Il_f2aada""), ""8"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:20,2024-02-29 08:32:25,4.446s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - 7 o higit _f836c6""), ""9"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:25,2024-02-29 08:32:26,1.559s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Ika-6 na b_ee969e""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:26,2024-02-29 08:32:28,2.014s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_b84cbb""), ""5"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:28,2024-02-29 08:32:30,2.089s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Magaang ma_840447""), ""7"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:30,2024-02-29 08:32:33,2.480s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:33,2024-02-29 08:32:35,1.930s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:35,2024-02-29 08:32:36,1.669s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:36,2024-02-29 08:32:39,2.344s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:39,2024-02-29 08:32:40,1.643s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo""), ""0"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:40,2024-02-29 08:32:42,1.934s,PASSED
+delay(5),Chrome 122.0.0.0,,,2024-02-29 08:32:42,2024-02-29 08:32:47,5.015s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Wala7 - Oo""), ""7"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:47,2024-02-29 08:32:49,2.025s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Iba pa5 - _f3691f""), ""7"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:49,2024-02-29 08:32:52,3.179s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/td_--      Select      --0 - Hindi13 - Oo""))",Chrome 122.0.0.0,,,2024-02-29 08:32:52,2024-02-29 08:32:53,0.811s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi13 - Oo""), ""13"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:53,2024-02-29 08:32:55,1.462s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi11 - Oo""), ""11"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:55,2024-02-29 08:32:56,1.620s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - Hindi8 - Oo""), ""8"", true)",Chrome 122.0.0.0,,,2024-02-29 08:32:56,2024-02-29 08:32:58,1.959s,PASSED
+delay(5),Chrome 122.0.0.0,,,2024-02-29 08:32:58,2024-02-29 08:33:03,5.006s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--GLIP 1GLIP 2IPPaglambo""), ""674"", true)",Chrome 122.0.0.0,,,2024-02-29 08:33:03,2024-02-29 08:33:05,1.626s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--Select--Adasen InlaudAetaAetaAlang_82eebf""), ""4511"", true)",Chrome 122.0.0.0,,,2024-02-29 08:33:05,2024-02-29 08:33:09,4.450s,PASSED
+delay(5),Chrome 122.0.0.0,,,2024-02-29 08:33:09,2024-02-29 08:33:14,5.004s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/button_NEXT""))",Chrome 122.0.0.0,,,2024-02-29 08:33:14,2024-02-29 08:33:15,0.535s,PASSED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Consent Waiver,Chrome 122.0.0.0,,,2024-02-29 08:33:15,2024-02-29 08:33:20,5.531s,PASSED
+driver = getWebDriver(),Chrome 122.0.0.0,,,2024-02-29 08:33:16,2024-02-29 08:33:16,0.001s,PASSED
+"health_dec = driver.findElement(By.id(""healthDeclarationYes""))",Chrome 122.0.0.0,,,2024-02-29 08:33:16,2024-02-29 08:33:16,0.523s,PASSED
+"driver.executeScript(""arguments[0].click();"", health_dec)",Chrome 122.0.0.0,,,2024-02-29 08:33:16,2024-02-29 08:33:16,0.024s,PASSED
+"Sumasangayonako1 = driver.findElement(By.id(""txtiAgree""))",Chrome 122.0.0.0,,,2024-02-29 08:33:16,2024-02-29 08:33:17,0.310s,PASSED
+"driver.executeScript(""arguments[0].click();"", Sumasangayonako1)",Chrome 122.0.0.0,,,2024-02-29 08:33:17,2024-02-29 08:33:17,0.039s,PASSED
+"mouseOver(findTestObject(""Object Repository/Loan Creation/Consent Waiver/Page_Core/div_PAGSANG-AYON ATPAGTALIKOD (CONSENT AND _48483f""))",Chrome 122.0.0.0,,,2024-02-29 08:33:17,2024-02-29 08:33:17,0.784s,PASSED
+"mouseOver(findTestObject(""Object Repository/Loan Creation/Consent Waiver/Page_Core/p_Ako si   aynagpapatunay na ang lahat ng i_cea5bf""))",Chrome 122.0.0.0,,,2024-02-29 08:33:17,2024-02-29 08:33:18,1.013s,PASSED
+"click(findTestObject(""Object Repository/Loan Creation/Consent Waiver/Page_Core/div_Sumasang-ayonako""))",Chrome 122.0.0.0,,,2024-02-29 08:33:18,2024-02-29 08:33:19,0.881s,PASSED
+"Sumasangayonako2 = driver.findElement(By.id(""txtiAgreeCBU""))",Chrome 122.0.0.0,,,2024-02-29 08:33:19,2024-02-29 08:33:20,0.316s,PASSED
+"driver.executeScript(""arguments[0].click();"", Sumasangayonako2)",Chrome 122.0.0.0,,,2024-02-29 08:33:20,2024-02-29 08:33:20,0.023s,PASSED
+"mouseOver(findTestObject(""Object Repository/Loan Creation/Consent Waiver/Page_Core/h4_CAPITAL BUILD-UP(CBU)MICRO-SAVINGS (ACCO_4822a1""))",Chrome 122.0.0.0,,,2024-02-29 08:33:20,2024-02-29 08:33:20,0.735s,PASSED

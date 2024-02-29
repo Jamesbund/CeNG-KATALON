@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CeNG Client Creation Test Suites,Chrome 122.0.0.0,Test Suites for Client Creation,,2024-02-28 16:50:48,2024-02-28 16:51:16,27.340s,ERROR
+,,,,,,,
+Test Cases/Login and Logout/Login,Chrome 122.0.0.0,,,2024-02-28 16:50:49,2024-02-28 16:51:11,22.514s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,2024-02-28 16:50:49,2024-02-28 16:50:52,3.004s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,2024-02-28 16:50:52,2024-02-28 16:50:52,0.179s,PASSED
+"navigateToUrl(""http://10.9.2.15:8880/eSystemNextGenWebApp/pages/Login"")",Chrome 122.0.0.0,,,2024-02-28 16:50:52,2024-02-28 16:50:54,1.716s,PASSED
+UsernameTeller = UsernameTeller,Chrome 122.0.0.0,,,2024-02-28 16:50:54,2024-02-28 16:50:54,0.541s,PASSED
+"setText(findTestObject(""Object Repository/Loan Creation/Page_Card eSystemNextGen/input_Username_txtUsername""), UsernameTeller)",Chrome 122.0.0.0,,,2024-02-28 16:50:54,2024-02-28 16:50:55,1.086s,PASSED
+PasswordTeller = PasswordTeller,Chrome 122.0.0.0,,,2024-02-28 16:50:55,2024-02-28 16:50:55,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Card eSystemNextGen/input_Password_txtPassword""), PasswordTeller)",Chrome 122.0.0.0,,,2024-02-28 16:50:55,2024-02-28 16:50:56,0.932s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/i_Password_toggletxtPassword""))",Chrome 122.0.0.0,,,2024-02-28 16:50:56,2024-02-28 16:50:57,0.566s,PASSED
+"click(findTestObject(""Object Repository/Page_Card eSystemNextGen/button_Login""))",Chrome 122.0.0.0,,,2024-02-28 16:50:57,2024-02-28 16:50:58,0.547s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Core/h4_Dashboard""))",Chrome 122.0.0.0,,,2024-02-28 16:50:58,2024-02-28 16:51:11,13.453s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Client Validation,Chrome 122.0.0.0,,,2024-02-28 16:51:11,2024-02-28 16:51:12,0.540s,FAILED
+"mouseOver(findTestObject(""Captured Object/Personal Information/Page_Core/span_Client""))",Chrome 122.0.0.0,,,2024-02-28 16:51:11,2024-02-28 16:51:12,0.116s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Personal Information,Chrome 122.0.0.0,,,2024-02-28 16:51:12,2024-02-28 16:51:12,0.474s,FAILED
+"click(findTestObject(""Object Repository/Captured Object/Personal Information/Page_Core/input_with Disability_withdisability""))",Chrome 122.0.0.0,,,2024-02-28 16:51:12,2024-02-28 16:51:12,0.092s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Address,Chrome 122.0.0.0,,,2024-02-28 16:51:12,2024-02-28 16:51:12,0.424s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/Address/Page_Core/select_--      Select      --Abra - CAR (Co_3be376""), ""10488"", true)",Chrome 122.0.0.0,,,2024-02-28 16:51:12,2024-02-28 16:51:12,0.119s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/ID Presented,Chrome 122.0.0.0,,,2024-02-28 16:51:12,2024-02-28 16:51:13,0.391s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/ID Presented/Page_Core/select_--Select--Barangay CertificateBIR TI_0033e0""), ""738"", true)",Chrome 122.0.0.0,,,2024-02-28 16:51:13,2024-02-28 16:51:13,0.096s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/DOSRI or RPT,Chrome 122.0.0.0,,,2024-02-28 16:51:13,2024-02-28 16:51:13,0.398s,FAILED
+"click(findTestObject(""Object Repository/Loan Creation/Client Creation/DOSRI or RPT/Page_Core/input_DOSRI_dosri""))",Chrome 122.0.0.0,,,2024-02-28 16:51:13,2024-02-28 16:51:13,0.088s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Other Information,Chrome 122.0.0.0,,,2024-02-28 16:51:13,2024-02-28 16:51:14,0.504s,FAILED
+"click(findTestObject(""Captured Object/Other Information/Page_Core/input_CARD Member_drone3""))",Chrome 122.0.0.0,,,2024-02-28 16:51:14,2024-02-28 16:51:14,0.100s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/CRA,Chrome 122.0.0.0,Client Risk Assessment,,2024-02-28 16:51:14,2024-02-28 16:51:14,0.416s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/Client Creation/CRA/Page_Core/select_Select      51015""), ""2"", true)",Chrome 122.0.0.0,,,2024-02-28 16:51:14,2024-02-28 16:51:14,0.100s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/KYC,Chrome 122.0.0.0,Know Your Client,,2024-02-28 16:51:14,2024-02-28 16:51:15,0.475s,FAILED
+"setText(findTestObject(""Object Repository/Loan Creation/KYC/Page_Core/input_Numberof Household Member_txtHouseholdMember""), ""9"")",Chrome 122.0.0.0,,,2024-02-28 16:51:15,2024-02-28 16:51:15,0.113s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/DSPPI,Chrome 122.0.0.0,Demographic Survey/Poverty Probability Index,,2024-02-28 16:51:15,2024-02-28 16:51:15,0.431s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Loan Creation/DSPPI/Page_Core/select_--      Select      --0 - ARMM8 - Il_f2aada""), ""8"", true)",Chrome 122.0.0.0,,,2024-02-28 16:51:15,2024-02-28 16:51:15,0.089s,FAILED
+,,,,,,,
+Test Cases/Client Module/Client Creation/Consent Waiver,Chrome 122.0.0.0,,,2024-02-28 16:51:15,2024-02-28 16:51:16,0.448s,ERROR
+driver = getWebDriver(),Chrome 122.0.0.0,,,2024-02-28 16:51:16,2024-02-28 16:51:16,0.013s,PASSED
+"health_dec = driver.findElement(By.id(""healthDeclarationYes""))",Chrome 122.0.0.0,,,2024-02-28 16:51:16,2024-02-28 16:51:16,0.046s,ERROR
